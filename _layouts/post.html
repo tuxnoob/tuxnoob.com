@@ -83,6 +83,13 @@ tail_includes:
   </header>
 
   <div class="content">
+
+    {% if page.image.src %}
+      <img src="{{ page.image.src }}" class="preview-img" alt="{{ page.image.alt | default: "Previe    w Image" }}">
+    {% endif %}
+
+    {% include adsense.html %}
+    
     {{ content }}
   </div>
 
