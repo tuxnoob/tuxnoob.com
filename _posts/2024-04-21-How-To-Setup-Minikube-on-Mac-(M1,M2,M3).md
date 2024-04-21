@@ -1,7 +1,7 @@
 ---
 title: How to Setup Minikube on MacOS Sonoma (M1/M2/M3)
 author: arief
-date: 2023-02-11 21:10:00 +07:00
+date: 2024-04-21 15:16:00 +07:00
 categories: [Minikube]
 tags: [Kubernetes, MacOS M1, MacOS Sonoma, Docker ]
 ---
