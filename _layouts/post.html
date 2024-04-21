@@ -85,11 +85,11 @@ tail_includes:
   <div class="content">
 
     {% if page.image.src %}
-      <img src="{{ page.image.src }}" class="preview-img" alt="{{ page.image.alt | default: "Previe    w Image" }}">
+      <img src="{{ page.image.src }}" class="preview-img" alt="{{ page.image.alt | default: "Preview Image" }}">
     {% endif %}
 
     {% include adsense.html %}
-    
+
     {{ content }}
   </div>
 
