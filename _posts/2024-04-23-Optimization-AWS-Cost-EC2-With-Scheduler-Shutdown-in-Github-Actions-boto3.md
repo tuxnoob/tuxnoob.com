@@ -6,7 +6,7 @@ categories: [AWS EC2, Github Actions, Boto3, Python]
 tags: [Python, AWS, Github, Scheduler, Boto3 ]
 ---
 
-![AWS-Boto3](/assets/images/boto3-github-aws.png){: .light }
+![AWS-Boto3](/assets/images/boto3-github-aws.png){: .dark }
 
 _Image by [Arief JR](https://linkedin.com/in/arief-jr)_
 
