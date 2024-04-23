@@ -161,7 +161,7 @@ In yaml script above, will running github actions with two conditions. if monday
 
 Replace `your-region` with your AWS Region
 
-3. Write Python Script
+#### 3. Write Python Script
 Create two Python scripts, shutdown_ec2.py and start_ec2.py, in your repository with the following content:
 
 shutdown_awsec2.py:
