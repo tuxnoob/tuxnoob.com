@@ -1,7 +1,7 @@
 ---
 title: "Optimize Your Database: Step-by-Step Guide to Setting Up pgpool-II with PostgreSQL Master-Slave Configuration And Failover Implementation"
 author: arief
-date: 2024-04-30 15:16:00 +07:00
+date: 2024-05-01 15:30:00 +07:00
 categories: [Database]
 tags: [PostgreSQL, pgpool-II, pgpool2, Failover, Pooling Connection ]
 ---
