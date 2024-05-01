@@ -16,7 +16,7 @@ timezone: Asia/Jakarta
 
 title: Tuxnoob # the main title
 
-tagline: Personal blog to write tutorial about linux,DevOps Tools and everything i wanted to write/post. # it will display as the sub-title
+tagline: Just documentation, trying write on personal blog for to get into the habit of writing and learning to get better  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A blog tutorial, devops tutorial,
