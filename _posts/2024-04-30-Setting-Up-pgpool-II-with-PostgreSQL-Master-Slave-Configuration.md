@@ -1,5 +1,5 @@
 ---
-title: Optimize Your Database: Step-by-Step Guide to Setting Up pgpool-II with PostgreSQL Master-Slave Configuration And Failover Implementation
+title: "Optimize Your Database: Step-by-Step Guide to Setting Up pgpool-II with PostgreSQL Master-Slave Configuration And Failover Implementation"
 author: arief
 date: 2024-04-30 15:16:00 +07:00
 categories: [Database]
