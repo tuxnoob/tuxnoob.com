@@ -1,7 +1,7 @@
 ---
 title: "Step-by-Step Guide: Installing and Configuring MySQL/MariaDB Master-Slave on Self-Managed Servers"
 author: arief
-date: 2024-06-24 23:00:00 +07:00
+date: 2024-06-24 15:00:00 +07:00
 categories: [Database, Relation Database]
 tags: [mysql, mariadb, Linux, Ubuntu, VPS ]
 ---
