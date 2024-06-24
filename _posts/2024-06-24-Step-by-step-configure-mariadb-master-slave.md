@@ -273,7 +273,7 @@ You should see `test_table` in the list of tables on the slave server.
 
 ### Tips
 
-- you should add config in slave server with `read_only = on` it will be read only on slave not writing
+- you should add config in slave server with `read_only = on` it will be read only on slave not writing or you can use `proxysql` to manage your mysql/mariadb database server.
 - optionally you can enable performance_schema, to enable just add to this config `performance_schema = on`. it will usefull for monitoring your execution level on database.
 
 ### Troubleshooting
