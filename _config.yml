@@ -63,7 +63,7 @@ analytics:
   google:
     id: G-NGTMEDFMXP # fill in your Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: 11866 # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
