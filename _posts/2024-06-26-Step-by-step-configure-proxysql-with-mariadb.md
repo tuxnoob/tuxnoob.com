@@ -3,7 +3,7 @@ title: "How to Configure ProxySQL with MariaDB on Your Self-Managed Server"
 author: arief
 date: 2024-06-26 21:57:00 +07:00
 categories: [Database, Database Management]
-tags: [proxysql, mysql, mariadb, Linux, Ubuntu, VPS ]
+tags: [proxysql, mysql, mariadb, Linux, Ubuntu, VPS, pooling connection ]
 ---
 
 
