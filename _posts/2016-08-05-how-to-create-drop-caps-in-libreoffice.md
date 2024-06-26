@@ -1,7 +1,7 @@
 ---
 title: 'How To: Create Drop Caps In Libreoffice Writer'
 date: '2016-08-05T11:18:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [Libreoffice, Drop Caps, Slackware, Create Drop Caps]
 categories: [Office]
 ---

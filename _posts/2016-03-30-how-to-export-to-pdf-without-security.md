@@ -1,7 +1,7 @@
 ---
 title: "[How To] Export To PDF With Password And Can Not Edit This Files Using Libreoffice"
 date: '2016-03-30T08:36:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [PDF, Libreoffice, Export PDF With Password]
 categories: [Linux, Office]
 ---

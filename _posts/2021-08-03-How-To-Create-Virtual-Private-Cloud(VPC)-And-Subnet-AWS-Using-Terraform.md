@@ -1,6 +1,6 @@
 ---
 title: How To Create Virtual Private Cloud (VPC) And Subnet AWS Using Terraform
-author: Arief JR
+author: arief
 date: 2021-08-03 10:21:00 +07:00
 categories: [How to implementing with terraform, Configure terraform for aws cloud]
 tags: [Linux, AWS, Terraform, Automation tools, IaC Tools]

@@ -1,6 +1,6 @@
 ---
 title: Create AWS Organization With Terraform
-author: Arief JR
+author: arief
 date: 2023-01-26 21:40:00 +07:00
 categories: [Cloud]
 tags: [AWS, Terraform, AWS Organization Unit, Account Management, IaC Tools ]

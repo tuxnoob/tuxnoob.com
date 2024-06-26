@@ -1,6 +1,6 @@
 ---
 title: Setup Password Less SSH Authentication On Linux
-author: Arief JR
+author: arief
 date: 2022-06-05 10:41:00 +07:00
 categories: [ssh, linux, security]
 tags: [ssh, Linux, security]

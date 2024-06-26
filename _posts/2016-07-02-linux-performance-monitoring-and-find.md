@@ -1,7 +1,7 @@
 ---
 title: Linux Performance Monitoring And Find Statistic Of Process Using Pidstat
 date: '2016-07-02T23:20:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [Performance Monitoring, Linux Command, Pidstat, Slackware]
 categories: [Linux]
 ---

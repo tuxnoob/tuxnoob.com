@@ -1,7 +1,7 @@
 ---
 title: "[How To] Add Burpsuite To KDE Plasma 5 Menu"
 date: '2016-03-26T23:03:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Burpsuite, KDE, Plasma 5, KDE Menu]
 categories: [Linux, Security]
 ---

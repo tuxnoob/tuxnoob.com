@@ -1,7 +1,7 @@
 ---
 title: 4 Tools Send Email Subject, Body And Attachment In Mail Linux
 date: '2016-06-27T06:59:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Email, Send Email, Linux Mail, Email Tools, Shell Script, Slackware]
 categories: [Linux, Programming]
 ---

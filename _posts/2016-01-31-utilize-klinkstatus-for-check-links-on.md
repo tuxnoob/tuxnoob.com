@@ -1,7 +1,7 @@
 ---
 title: Utilize KLinkStatus For Check Links On KDE Plasma 5
 date: '2016-01-31T16:49:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [KlinkStatus, KDE, Plasma 5]
 categories: [Linux, KDE]
 ---

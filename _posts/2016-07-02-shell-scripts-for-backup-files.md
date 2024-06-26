@@ -1,7 +1,7 @@
 ---
 title: Shell Scripts For Backup Files / Directories With Rsync In Linux
 date: '2016-07-02T23:46:00.004+07:00'
-author: Arief JR
+author: arief
 tags: [Backup Files, Backup Directory, Rsync, Shell Script, Slackware]
 categories: [Linux, Programming]
 ---

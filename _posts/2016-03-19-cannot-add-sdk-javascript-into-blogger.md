@@ -1,7 +1,7 @@
 ---
 title: Cannot Add SDK Javascript Into Blogger [Add Facebook Like Button]
 date: '2016-03-19T14:41:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [SDK Javascript, Blogger, Facebook Like Button, Blogspot]
 categories: [Blog, Blosgpsot, Facebook]
 ---

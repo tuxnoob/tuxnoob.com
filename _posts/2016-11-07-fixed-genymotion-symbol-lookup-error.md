@@ -1,7 +1,7 @@
 ---
 title: Fixed - Genymotion Symbol Lookup Error /usr/lib64/libX11.so.1
 date: '2016-11-07T09:49:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Genymotion, Error Symbol Lookup, Slackware, Android]
 categories: [Linux, Android Emulator]
 ---

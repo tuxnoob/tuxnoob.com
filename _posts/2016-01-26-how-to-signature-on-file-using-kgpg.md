@@ -1,7 +1,7 @@
 ---
 title: 'HOW TO: Signature On File Using KGPG'
 date: '2016-01-26T18:50:00.002+07:00'
-author: Arief JR
+author: arief
 tags: [KGPG, Signature, KDE]
 categories: [Linux]
 ---

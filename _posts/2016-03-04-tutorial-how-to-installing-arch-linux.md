@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial: How to Installing Arch Linux 2016 with more desktop environment (DE)'
 date: '2016-03-04T00:32:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Arch Linux, Desktop Environment, Install Arch Linux]
 categories: [Linux, Desktop Environment]
 ---

@@ -1,7 +1,7 @@
 ---
 title: How Do I Install DracOS Linux With VirtualBox
 date: '2016-03-11T23:21:00.003+07:00'
-author: Arief JR
+author: arief
 tags: [DracOs, VirtualBox, Install DracOS Linux]
 categories: [Linux, Virtual-Machine]
 ---

@@ -1,7 +1,7 @@
 ---
 title: Testing Sound - Enable Surrounding Sound In Slackware Linux With Realtek Audio Card
 date: '2016-12-20T20:07:00.002+07:00'
-author: Arief JR
+author: arief
 tags: [Enable Surrounding Sound, Slackware, Realtek Audio Card, Pulseaudio, Alsa]
 categories: [Linux, Multimedia]
 ---

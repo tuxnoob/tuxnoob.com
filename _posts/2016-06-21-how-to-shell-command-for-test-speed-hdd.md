@@ -1,7 +1,7 @@
 ---
 title: How To - Shell Command For Test Speed HDD In Linux
 date: '2016-06-21T00:08:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [Command Line, Test Speed HDD, Slackware]
 categories: [Linux]
 ---

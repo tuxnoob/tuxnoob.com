@@ -1,7 +1,7 @@
 ---
 title: "[How To] Customization KDE Plasma 5 Background And Logo In Splash Screen"
 date: '2016-04-04T21:33:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [KDE, Plasma 5, KDE Background, KDE Logo, Spash Screen, Slackware]
 categories: [Linux, Desktop Environment]
 ---

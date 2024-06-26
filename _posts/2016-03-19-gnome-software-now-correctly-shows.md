@@ -1,7 +1,7 @@
 ---
 title: GNOME Software Now Correctly Shows Ubuntu-Specific App Reviews
 date: '2016-03-19T21:13:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [GNOME, Ubuntu, App Reviews]
 categories: [Linux, Desktop Environment]
 ---

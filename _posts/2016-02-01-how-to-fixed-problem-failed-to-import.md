@@ -1,7 +1,7 @@
 ---
 title: 'HOW TO: Fixed Problem Failed To Import Volatility.plugins.* When Running Volatility'
 date: '2016-02-01T20:32:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Volatility, Failed Import, Fixed Volatility]
 categories: [Linux, Forensic Tools]
 ---

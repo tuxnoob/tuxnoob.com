@@ -1,7 +1,7 @@
 ---
 title: "[How To] Remove IFrame In Blog (Blogspot)"
 date: '2016-03-27T01:41:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [Blog, Blogspot, SEO, Tips & Trick]
 categories: [Blog, Blogspot]
 ---

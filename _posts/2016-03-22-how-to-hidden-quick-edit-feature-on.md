@@ -1,7 +1,7 @@
 ---
 title: "[How To] Hidden Quick Edit Feature on Blogspot"
 date: '2016-03-22T20:06:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [Hidden Quick Feature, Blog, Blogspot, Tips & Trick]
 categories: [Blog, Blogspot]
 ---

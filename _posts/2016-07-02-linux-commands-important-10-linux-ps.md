@@ -1,7 +1,7 @@
 ---
 title: Linux Commands - Important 10 Linux Ps Command With Examples
 date: '2016-07-02T05:51:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Linux Commands, 10 Important Linux Process]
 categories: [Linux]
 ---

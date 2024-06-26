@@ -1,7 +1,7 @@
 ---
 title: 'Fixed Inkscape Won''t Launch "error while loading shared libraries: libpoppler.so.58"'
 date: '2016-03-30T10:32:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [Inkscape, Design, Fixed Inkscape Won't Lainch]
 categories: [Linux, Graphics Editor]
 ---

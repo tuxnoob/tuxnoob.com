@@ -1,6 +1,6 @@
 ---
 title: Securing Basic AWS Account Best Practice
-author: Arief JR
+author: arief
 date: 2023-01-22 00:39:00 +07:00
 categories: [Cloud]
 tags: [AWS, Security ]

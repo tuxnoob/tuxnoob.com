@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial: How install Ubuntu 14.04 with VirtualBox'
 date: '2016-02-28T22:10:00.002+07:00'
-author: Arief JR
+author: arief
 tags: [Ubuntu, VirtualBox, Ubuntu Desktop, Ubuntu 14.04]
 categories: [Linux, Virtual-Machine]
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'How To: Linux Netstat Command Line For Checking Connection'
 date: '2016-03-15T16:38:00.002+07:00'
-author: Arief JR
+author: arief
 tags: [Netstat, Linux Command Line, Network Tools]
 categories: [Linux]
 ---

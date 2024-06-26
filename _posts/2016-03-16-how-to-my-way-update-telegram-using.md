@@ -1,7 +1,7 @@
 ---
 title: "[How To] My Way Update Telegram Using Command Line"
 date: '2016-03-16T22:30:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [Telegram, Command Line Linux, Update Telegram]
 categories: [Linux, Social Chat]
 ---

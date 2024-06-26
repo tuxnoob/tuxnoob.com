@@ -1,6 +1,6 @@
 ---
 title: Install and Configure Wordpress with LEMP in Ubuntu Server (20.04 - Focal Fosa)
-author: Arief JR
+author: arief
 date: 2023-02-11 21:10:00 +07:00
 categories: [Wordpress CMS]
 tags: [Wordpress, Ubuntu Server, LEMP, Linux, Nginx, MySQL, Php ]

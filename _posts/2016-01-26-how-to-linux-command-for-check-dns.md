@@ -1,7 +1,7 @@
 ---
 title: 'HOW TO: Linux Command For Check DNS Record With "DIG"'
 date: '2016-01-26T19:32:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Linux Command, Network Tools, DNS]
 categories: [Linux]
 ---

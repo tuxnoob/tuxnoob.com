@@ -1,7 +1,7 @@
 ---
 title: 'How To: Running Android Application with Genymotion On Slackware Linux'
 date: '2016-03-05T09:52:00.002+07:00'
-author: Arief JR
+author: arief
 tags: [Android, Genymotion, Slackware, Running Android]
 categories: [Linux, Emulator Android]
 ---

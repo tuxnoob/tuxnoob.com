@@ -1,7 +1,7 @@
 ---
 title: 'Create Wi-fi Hotspot [Shared] Using KDE Plasma 5 '
 date: '2016-03-16T08:52:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Wi-Fi, Hotspot, KDE, Plasma 5]
 categories: [Linux, Desktop Environment]
 ---

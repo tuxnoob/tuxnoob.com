@@ -1,7 +1,7 @@
 ---
 title: "[How To] Step By Step Installation Guide Linux Gentoo Live DVD 2016 With Screenshot - Part 1"
 date: '2016-05-28T12:47:00.002+07:00'
-author: Arief JR
+author: arief
 tags: [Gentoo, Gentoo Live, Installation Guide, Live DVD]
 categories: [Linux, Desktop Environment]
 ---

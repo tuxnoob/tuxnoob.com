@@ -1,7 +1,7 @@
 ---
 title: "[How To] Add Powerline In KDE Konsole With Slackware64-Current"
 date: '2016-05-27T15:23:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Powerline, KDE, Konsole KDE, Slackware, Vim, Bash Shell]
 categories: [Linux, Desktop Environment]
 ---

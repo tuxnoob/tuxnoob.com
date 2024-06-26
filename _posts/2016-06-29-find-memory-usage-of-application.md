@@ -1,7 +1,7 @@
 ---
 title: Find Memory Usage Of An Application / Program In Linux Using Shell Script
 date: '2016-06-29T06:10:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Shell Script, Memory Usage, Slackware, Find Memory Usage Application/Program]
 categories: [Linux, Programming]
 ---

@@ -1,6 +1,6 @@
 ---
 title: How To Build Kernel From Source on Slackware-Linux
-author: Arief JR
+author: arief
 date: 2016-08-31 13:37:00 +07:00
 categories: [Slackware, How Build Kernel, Tutorial Build Kernel on Linux]
 tags: [Slackware, Linux, Kernel]

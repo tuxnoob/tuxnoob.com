@@ -1,6 +1,6 @@
 ---
 title: How To Setup Minikube On Slackware Linux
-author: Arief JR
+author: arief
 date: 2021-08-04 21:40:00 +07:00
 categories: [minikube, slackware, kubernetes]
 tags: [Slackware, Kubernetes, Orchestration tools ]

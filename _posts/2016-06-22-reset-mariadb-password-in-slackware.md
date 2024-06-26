@@ -1,7 +1,7 @@
 ---
 title: Reset MariaDB Password In Slackware Linux
 date: '2016-06-22T06:19:00.002+07:00'
-author: Arief JR
+author: arief
 tags: [MariaDB, Reset Password, Slackware]
 categories: [Linux, Database]
 ---

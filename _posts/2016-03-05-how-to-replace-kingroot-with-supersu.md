@@ -1,7 +1,7 @@
 ---
 title: How To Replace KingRoot with SuperSU Without Use Computer
 date: '2016-03-05T14:02:00.003+07:00'
-author: Arief JR
+author: arief
 tags: [KingRoot, SuperSu, Android]
 categories: [Linux, Mobile OS]
 ---

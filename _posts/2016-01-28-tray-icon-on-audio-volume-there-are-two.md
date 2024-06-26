@@ -1,7 +1,7 @@
 ---
 title: Tray Icon On Audio Volume There Are Two With Plasma 5
 date: '2016-01-28T18:59:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [KDE, Plasma 5, Audio Volume]
 categories: [Linux, Multimedia]
 ---

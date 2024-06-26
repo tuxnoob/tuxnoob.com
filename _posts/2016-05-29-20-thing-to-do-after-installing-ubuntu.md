@@ -1,7 +1,7 @@
 ---
 title: 20 Thing To Do After Installing Ubuntu 14.04 LTS Trusty Tahr (2016)
 date: '2016-05-29T21:55:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Ubuntu, Trusty Tahr, Ubuntu 14.04 LTS, Tips & Trick]
 categories: [Linux]
 ---

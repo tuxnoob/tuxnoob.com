@@ -1,7 +1,7 @@
 ---
 title: HowTo - Create Login Form Using Visual Basic 2010
 date: '2016-06-20T21:10:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Visual Basic 2010, Login Form, Windows]
 categories: [Programming]
 ---

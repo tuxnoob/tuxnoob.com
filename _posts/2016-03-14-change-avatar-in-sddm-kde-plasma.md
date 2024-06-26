@@ -1,7 +1,7 @@
 ---
 title: Change Avatar In SDDM [KDE Plasma]
 date: '2016-03-14T13:19:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Avatar SDDM, KDE, Plasma]
 categories: [Linux, Desktop Environment]
 ---

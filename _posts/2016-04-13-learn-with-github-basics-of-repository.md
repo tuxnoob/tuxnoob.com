@@ -1,7 +1,7 @@
 ---
 title: Learn With GitHub; Basics Of Repository Management
 date: '2016-04-13T15:50:00.005+07:00'
-author: Arief JR
+author: arief
 tags: [Git, Github, Github Basic, Github Command]
 categories: [Git, Github]
 ---

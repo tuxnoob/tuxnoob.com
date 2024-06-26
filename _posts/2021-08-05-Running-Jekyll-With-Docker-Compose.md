@@ -1,6 +1,6 @@
 ---
 title: Running Jekyll With Docker Compose
-author: Arief JR
+author: arief
 date: 2021-08-05 21:00:00 +07:00
 categories: [jekyll, linux, docker]
 tags: [Docker, Linux, Container, Ubuntu]

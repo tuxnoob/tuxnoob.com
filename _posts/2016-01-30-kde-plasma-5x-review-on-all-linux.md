@@ -1,7 +1,7 @@
 ---
 title: KDE Plasma 5.X Review On All Linux Variants
 date: '2016-01-30T20:13:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [KDE, Plasma 5, Review ]
 categories: [Linux]
 ---

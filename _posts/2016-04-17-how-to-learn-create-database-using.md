@@ -1,7 +1,7 @@
 ---
 title: "[How To] Learn & Create Database Using Sqlite3"
 date: '2016-04-17T21:27:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [Sqlite3, Create Database, Learn Database]
 categories: [Linux, Database]
 ---

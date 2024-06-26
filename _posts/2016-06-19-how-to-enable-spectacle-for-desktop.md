@@ -1,7 +1,7 @@
 ---
 title: How To - Enable Spectacle For Desktop Screenshot Application
 date: '2016-06-19T05:56:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [Spectacle, Screenshot Application, Slackware, KDE, Plasma 5]
 categories: [Linux, Desktop Environment]
 ---

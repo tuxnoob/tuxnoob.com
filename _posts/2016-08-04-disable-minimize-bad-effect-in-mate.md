@@ -1,7 +1,7 @@
 ---
 title: Disable Minimize Bad Effect In MATE Desktop [Slackware-Current]
 date: '2016-08-04T22:36:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [MATE, Mate Desktop, Slackware, Minimize Bad Effect]
 categories: [Linux, Desktop Environment]
 ---

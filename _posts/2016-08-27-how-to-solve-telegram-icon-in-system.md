@@ -1,7 +1,7 @@
 ---
 title: How To Solve Telegram Icon In System Tray Kde Plasma Was Blurred
 date: '2016-08-27T00:22:00.002+07:00'
-author: Arief JR
+author: arief
 tags: [Telegram, Fix Telegram Icon Blurred, System Tray, KDE, Plasma 5]
 categories: [Linux, Social Chat]
 ---

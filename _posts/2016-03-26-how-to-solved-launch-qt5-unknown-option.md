@@ -1,7 +1,7 @@
 ---
 title: '[How To] Solved Launch *Qt5 "Unknown Option ''qt'' " In KDE Plasma 5 [Slackware]'
 date: '2016-03-26T14:58:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [QT5, KDE, Plasma 5, Slackware, Solve Launch QT]
 categories: [Linux, Desktop Environment]
 ---

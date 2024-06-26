@@ -1,6 +1,6 @@
 ---
 title: Create and Manage AWS Account (AWS IAM) With Terraform
-author: Arief JR
+author: arief
 date: 2023-01-29 02:10:00 +07:00
 categories: [Cloud]
 tags: [AWS, IAM Users, Security, Controlling Access, IaC Tools ]

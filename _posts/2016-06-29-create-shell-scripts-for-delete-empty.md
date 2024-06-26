@@ -1,7 +1,7 @@
 ---
 title: Shell Scripts For Delete Empty Directories In Linux
 date: '2016-06-29T02:11:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Shell Script, Delete Empty Directories, Slackware]
 categories: [Linux, Programming]
 ---

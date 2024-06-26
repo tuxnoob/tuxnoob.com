@@ -1,7 +1,7 @@
 ---
 title: How To Flash Android 6.0 Marshmallow on Nexus (5/6/7/9)
 date: '2016-03-06T15:16:00.002+07:00'
-author: Arief JR
+author: arief
 tags: [Android, Nexus, Android Marshmallow]
 categories: [Linux, Mobile OS]
 ---

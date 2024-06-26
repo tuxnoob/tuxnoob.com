@@ -1,7 +1,7 @@
 ---
 title: "[How To] Create Sqlite Database Using Firefox Addons - GUI"
 date: '2016-05-29T15:49:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Sqlite, Firefox Addons, Sqlite GUI, Firefox]
 categories: [Database, Browser]
 ---

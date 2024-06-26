@@ -1,7 +1,7 @@
 ---
 title: Backup MySql Database Linux Using Shell Scripts
 date: '2016-06-28T23:13:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [Shell Script, MySQL, MariaDB, Slackware]
 categories: [Linux, Database, Programming]
 ---

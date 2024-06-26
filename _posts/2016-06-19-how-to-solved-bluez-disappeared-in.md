@@ -1,7 +1,7 @@
 ---
 title: How To - Solved Bluez Disappeared In System Tray KDE Plasma
 date: '2016-06-19T06:22:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [Bluez, Disappeared Icon, System Tray, KDE, Plasma 5, Slackware]
 categories: [Linux, Desktop Environment]
 ---

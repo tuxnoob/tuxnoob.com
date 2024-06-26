@@ -1,7 +1,7 @@
 ---
 title: How To - Dropbox Icon Was Disappeared In System Tray KDE Plasma 5 [Solved]
 date: '2016-06-14T02:57:00.001+07:00'
-author: Arief JR
+author: arief
 tags: [Dropbox, Disappeared Icon, KDE, Plasma 5, System Tray KDE]
 categories: [Linux, Desktop Environment]
 ---

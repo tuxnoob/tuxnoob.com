@@ -1,7 +1,7 @@
 ---
 title: "[How To] Optimize Auto SEO Image on Blog"
 date: '2016-03-23T01:35:00.000+07:00'
-author: Arief JR
+author: arief
 tags: [SEO Image, Blog, Blogspot, Optimize SEO, Tips & Trick]
 categories: [Blog, Blosgpsot, SEO]
 ---
