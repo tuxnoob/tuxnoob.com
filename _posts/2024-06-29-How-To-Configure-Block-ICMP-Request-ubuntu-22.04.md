@@ -1,7 +1,7 @@
 ---
 title: "How to Configure UFW to block ICMP Request On Ubuntu 22.04 Server"
 author: arief
-date: 2024-06-29 21:57:00 +07:00
+date: 2024-06-29 12:14:00 +07:00
 categories: [Infrastructure]
 tags: [Firewall, Ufw, Linux, Ubuntu, VPS, Security ]
 ---
