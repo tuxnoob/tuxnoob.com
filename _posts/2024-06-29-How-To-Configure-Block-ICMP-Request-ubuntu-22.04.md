@@ -136,6 +136,18 @@ You can check the status and the rules applied by using:
 sudo ufw status verbose
 ```
 
+5. Test ping
+
+test ping to destination ip address after changed in above:
+
+```sh
+ping <your ip address>
+```
+
+The result will be like this:
+
+![ping](/assets/images/test-ping.png){: width="500" height="250" }
+
 This should show you the current rules, including the one you added for blocking ICMP echo requests.
 
 Choose the method that best fits your needs. Each of these methods provides a way to block ICMP requests, enhancing the security of your Ubuntu system.
