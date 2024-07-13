@@ -594,7 +594,7 @@ If you want remove, you can run command `terraform destroy` then type `yes` when
 
 Full source code: 
 
-[Github Tuxnoob](https://github.com/tuxnoob/terraform-vpc)
+[Github Tuxnoob](https://github.com/tuxnoob/Terraform-AWS/tree/main/terraform-vpc)
 
 
 
