@@ -1,7 +1,7 @@
 ---
 title: "Install and Configure Mail Server on Ubuntu 22.04 with Postfix, Dovecot and Roundcube: Step-by-Step Complete Guide - Part 2"
 author: arief
-date: 2024-07-01 20:00:00 +07:00
+date: 2024-07-15 20:00:00 +07:00
 categories: [Infrastructure]
 tags: [Mail Server, Postfix, Dovecot, Ubuntu, Linux, Database, SPF, Cloudflare, DKIM, DMARC, Domain, Roundcube, Namecheap]
 ---
