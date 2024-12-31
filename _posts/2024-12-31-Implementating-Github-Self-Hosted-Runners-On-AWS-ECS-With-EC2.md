@@ -93,22 +93,22 @@ Build docker image will use multiarch, i will use `x86_64` and `arm64`. If the e
 
 ![docker-desktop](/assets/images/docker-desktop.png)
 
-After enabled, usually to restart docker desktop
+  After enabled, usually to restart docker desktop
 
-2. After enabled, create your repository for store docker image in AWS ECR (Elastic Container Registry).
+2. Create your repository for store docker image in AWS ECR (Elastic Container Registry).
 3. In this tutorial i'll use docker command line to build, not use GUI on docker desktop. Here is command:
 
-```bash
-docker buildx build --push --platform linux/amd64, linux/arm64 -t {aws-ecr-address}/{repository}:{tags} .
-```
+  ```bash
+  docker buildx build --push --platform linux/amd64, linux/arm64 -t {aws-ecr-address}/{repository}:{tags} .
+  ```
 
-wait until succeeded to push on AWS ECR
+  wait until succeeded to push on AWS ECR
 
 4. After created and pushed the runner image, it will need one container is for worker namely is docker in docker. Here is `dind.dockerfile` and `entrypoint.sh` files:
 
 <script src="https://gist.github.com/4IP/d11c12d821027e9662f90071edb8550a.js"></script>
 
-5. Build and push with step 3
+5. Build and push as in step 3 above.
 
 ### Create AWS ECS using EC2 with autoscaling group
 
@@ -116,7 +116,7 @@ wait until succeeded to push on AWS ECR
 
 <script src="https://gist.github.com/4IP/858d6eff279b35b5e7f4532ae3c25bbc.js"></script>
 
-In above terraform script, because in existing ecs cluster use fargate. Because, i want to reduce the cost that the cost cannot increase if use fargate so i select to add ec2 with autoscaling to running the github self-hosted runner.
+  In above terraform script, because in existing ecs cluster use fargate. Because, i want to reduce the cost that the cost cannot increase if use fargate so i select to add ec2 with autoscaling to running the github self-hosted runner.
 
 2. Then create task definition and service, in this post i'll use terraform to deploy the github-runner on aws ecs cluster.
 
@@ -137,6 +137,7 @@ jobs:
 
 ### Summary
 
+- Amazon linux 2 as default has use storage driver is overlay2 in docker, so there's no need to change the storage driver again
 - After implementation the github runner, every runner is working then receive a new job for build the github runner not horizontal scale. Even though i already put the application autoscaling to scale if receive more job execution
 - I still use connect between container use tcp not socket, because i got error when applied. The error is `failed to load listeners: can't create unix socket /var/run/docker.sock: device or resource busy`, but next time if i have a free time will explore the issue to solving.
 - I’ll be updating the source on my GitHub repository soon. If you’d like to contribute or improve the existing code, your help would be greatly appreciated!
