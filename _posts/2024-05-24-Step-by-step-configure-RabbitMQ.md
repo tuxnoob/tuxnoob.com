@@ -26,7 +26,7 @@ RabbitMQ is a widely-used open-source message broker that facilitates communicat
 
 ## Step-by-Step Guide to Install and Configure RabbitMQ on Ubuntu 22.04
 
-Before setup and configure, let's assume have 3 nodes. In here i using AWS EC2 for rabbitmq and using ubuntu 22.04
+Before setup and configure, let's assume only have 1 nodes. In here i using AWS EC2 for rabbitmq and using ubuntu 22.04
 
 ### Step 1: Update System Packages
 Ensure your system packages are up to date.
