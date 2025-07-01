@@ -4,6 +4,8 @@ author: arief
 date: 2025-04-15 18:00:00 +07:00
 categories: [Infrastructure]
 tags: [Amazon Linux 2, AWS, Autoscaling Group, AWS ECS, AWS EC2, AWS Fargate, Terraform]
+comments: true
+toc: true
 ---
 
 ![awsecswithec2](/assets/images/cost-optimize-aws-ecs-with-ec2.png){: width="600" height="600"}
