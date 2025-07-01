@@ -3,7 +3,7 @@ title: "Cost Optimization with AWS ECS and EC2: A Step-by-Step Guide"
 author: arief
 date: 2025-04-15 18:00:00 +07:00
 categories: [Infrastructure]
-tags: [Amazon Linux 2, AWS, Autoscaling Group, AWS ECS, AWS EC2, Terraform]
+tags: [Amazon Linux 2, AWS, Autoscaling Group, AWS ECS, AWS EC2, AWS Fargate, Terraform]
 ---
 
 ![awsecswithec2](/assets/images/cost-optimize-aws-ecs-with-ec2.png){: width="600" height="600"}
