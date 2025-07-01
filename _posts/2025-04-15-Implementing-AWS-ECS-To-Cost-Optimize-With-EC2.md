@@ -93,7 +93,7 @@ m5.xlarge (Spot Instance):
 
 The Auto Scaling group will be configured to launch a new instance when the current instance count is below the desired capacity. The Auto Scaling group will also be configured to terminate instances when the current instance count is above the desired capacity.
 
-But i will use terraform to create the AutoScaling group and attach to the ECS cluster for capacity provider. Here is example the terraform code:
+But i will use terraform to create the AutoScaling group and attach to the ECS cluster for capacity provider. Here are a few select examples of Terraform code:
 
 ```terraform
 module "ecs" {
