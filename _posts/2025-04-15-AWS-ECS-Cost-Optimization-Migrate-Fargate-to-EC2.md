@@ -1,5 +1,5 @@
 ---
-title: "Cost Optimization with AWS ECS and EC2: A Step-by-Step Guide"
+title: "AWS ECS Cost Optimization: Migrate Fargate to EC2"
 author: arief
 date: 2025-04-15 18:00:00 +07:00
 categories: [Infrastructure]
@@ -104,7 +104,7 @@ module "ecs" {
   cluster_configuration = {
     execute_command_configuration = {
       logging = "OVERRIDE",
-      kmsKeyId = "arn:aws:kms:ap-southeast-3:xxxxxxxx:key/xxxxxxx-4bb9-xxxxx-xxxxx-xxxxxx"
+      kmsKeyId = "arn:aws:kms:{fill your aws region}:xxxxxxxx:key/xxxxxxx-4bb9-xxxxx-xxxxx-xxxxxx"
       log_configuration = {
         cloud_watch_log_group_name = "/aws/ecs/${local.name}"
       }
@@ -225,10 +225,98 @@ module "autoscaling_prod" {
 }
 ```
 
+And change or update the existing task also service, select to use EC2 and choose capacity provider previously created. Select your existing task definition and create a new revision with JSON.
+
+Example a few of task definition:
+
+```json
+{
+    "family": "{fill the task name, usually should same with container name}",
+    "containerDefinitions": [
+        {
+            "name": "{fill the container name}",
+            "image": "{fill the container image}",,
+            "cpu": 0,
+            "memoryReservation": 256,
+            "portMappings": [
+                {
+                    "name": "{fill the container name}",
+                    "containerPort": 3000,
+                    "hostPort": 3000,
+                    "protocol": "tcp",
+                    "appProtocol": "http"
+                }
+            ],
+            "essential": true,
+            "environment": [
+              ........
+            ],
+            "mountPoints": [],
+            "volumesFrom": [],
+            "secrets": [
+                {
+                    "name": "XXXXXXXX",
+                    "valueFrom": "arn:aws:ssm:{fill your aws region}:{fill your aws account id}:parameter/production/broom-ml-mrp-service/XXXXXXXX"
+                },
+                {
+                    "name": "XXXXXXXXXXX",
+                    "valueFrom": "arn:aws:ssm:{fill your aws region}:{fill your aws account id}:parameter/production/broom-ml-mrp-service/XXXXXXXXXXX"
+                },
+                {
+                    "name": "XXXXXXXXXXX",
+                    "valueFrom": "arn:aws:ssm:{fill your aws region}:{fill your aws account id}:parameter/xxxxxxxx/production/xxxxx/xxxxx"
+                }
+            ],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "/ecs/{log_group_name what you want}",
+                    "mode": "non-blocking",
+                    "awslogs-create-group": "true",
+                    "max-buffer-size": "25m",
+                    "awslogs-region": "{fill your aws region}",
+                    "awslogs-stream-prefix": "ecs"
+                }
+            },
+            "healthCheck": {
+                "command": [
+                    "CMD-SHELL",
+                    "curl -f http://localhost:3000/api/v1/health/ready -H 'action_by: 0' || exit 1"
+                ],
+                "interval": 30,
+                "timeout": 5,
+                "retries": 3,
+                "startPeriod": 90
+            },
+            "systemControls": []
+        }
+    ],
+    "taskRoleArn": "arn:aws:iam::xxxxxxxxx:role/xxxxxxx",
+    "executionRoleArn": "arn:aws:iam::xxxxxxxxx:role/xxxxxxxxxx",
+    "networkMode": "awsvpc",
+    "volumes": [],
+    "placementConstraints": [],
+    "requiresCompatibilities": [
+        "EC2"
+    ],
+    "runtimePlatform": {
+        "cpuArchitecture": "X86_64",
+        "operatingSystemFamily": "LINUX"
+    },
+    "enableFaultInjection": false
+}
+```
+
+Then for service, change to use EC2 as capacity provider like this example:
+
+![AWS-ECS-Update-Service](/assets/images/aws-ecs-service-capacity-provider.png)
+
+And choose button update, and you can see the service is running on EC2 instance.
+
 ### Conclusion
 
 - Don't forget to remove fargate as capacity provider or you can add in terraform line with value `default_capacity_provider_use_fargate = false`.
-- In part `kmsKeyId = "arn:aws:kms:ap-southeast-3:xxxxxxxx:key/xxxxxxx-4bb9-xxxxx-xxxxx-xxxxxx"` and `iam_instance_profile_arn = "arn:aws:iam::xxxxxxx:instance-profile/XXXXX` change your existing kms key and iam instance profile. If you don't have iam instance profile, set to true in value `create_iam_instance_profile = false` in terraform code that can create new iam instance profile.
+- In part `kmsKeyId = "arn:aws:kms:{fill your aws region}:xxxxxxxx:key/xxxxxxx-4bb9-xxxxx-xxxxx-xxxxxx"` and `iam_instance_profile_arn = "arn:aws:iam::xxxxxxx:instance-profile/XXXXX` change your existing kms key and iam instance profile. If you don't have iam instance profile, set to true in value `create_iam_instance_profile = false` in terraform code that can create new iam instance profile.
 - After implementation use AutoScaling group in AWS ECS, i still have one problem when the task deployed into AWS EC2 under AutoSCaling group, the EC2 is not full filled with the maximum task instead launch new EC2 instance. For example the instance type is m5.xlarge, the maximum task is 20 after enabled vpc trunking, but the task is only 10 then launch new EC2 instance. I still find the solution for this problem.
 
 Thanks for reading!
