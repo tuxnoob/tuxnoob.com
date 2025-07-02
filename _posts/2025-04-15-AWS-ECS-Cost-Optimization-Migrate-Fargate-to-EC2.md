@@ -10,7 +10,7 @@ tags: [Amazon Linux 2, AWS, Autoscaling Group, AWS ECS, AWS EC2, AWS Fargate, Te
 
 _Image by [Arief JR](https://linkedin.com/in/arief-jr)_
 
-Today I will share my experience about how to cost optimize with AWS ECS and EC2, and how to use Terraform to automate the process. AWS ECS is a powerful service for container orchestration, AWS ECS provide two type of instance, EC2 and Fargate. The fargate is a serverless service, currently the company where i working is using fargate.
+Today I will share my experience about how to cost optimize with AWS ECS and EC2, and use Terraform to automate the process. AWS ECS is a powerful service for container orchestration, AWS ECS provide two type of instance, EC2 and Fargate. The fargate is a serverless service, currently the company where i working is using fargate.
 
 AWS ECS with fargate is very good option for have large service (microservice) without provision, configure, or manage the underlying EC2 instance.
 
