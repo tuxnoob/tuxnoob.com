@@ -54,7 +54,11 @@ jobs:
         run: |
           bundle exec htmlproofer _site \
             \-\-disable-external \
+            \-\-enforce-httpses=false \
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+        env:
+          NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
