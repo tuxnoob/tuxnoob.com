@@ -39,11 +39,11 @@ And finally i decided for installing windows 7 to virtualbox, because after inst
 
 ### Something Problem After Run For Installing Windows !!!
 
-[![](http://2.bp.blogspot.com/-XwV2sN4_RoE/Vo6VqDL_y2I/AAAAAAAACok/9hiPpoq9UCY/s400/Screenshot_20160107_233847.png)](http://2.bp.blogspot.com/-XwV2sN4_RoE/Vo6VqDL_y2I/AAAAAAAACok/9hiPpoq9UCY/s1600/Screenshot_20160107_233847.png)
+[![](https://2.bp.blogspot.com/-XwV2sN4_RoE/Vo6VqDL_y2I/AAAAAAAACok/9hiPpoq9UCY/s400/Screenshot_20160107_233847.png)](https://2.bp.blogspot.com/-XwV2sN4_RoE/Vo6VqDL_y2I/AAAAAAAACok/9hiPpoq9UCY/s1600/Screenshot_20160107_233847.png)
 
 Ooops !!! I got something problem to install windows, and i forgot on settings > system > Processor not checked to _"enable PAE/NX"_. So solution for this problem like this :  
 
-[![](http://1.bp.blogspot.com/-LnQ3Y-5k03s/Vo6W0wToMVI/AAAAAAAACow/XsOlR0SdPrY/s400/Screenshot_20160107_234410.png)](http://1.bp.blogspot.com/-LnQ3Y-5k03s/Vo6W0wToMVI/AAAAAAAACow/XsOlR0SdPrY/s1600/Screenshot_20160107_234410.png)
+[![](https://1.bp.blogspot.com/-LnQ3Y-5k03s/Vo6W0wToMVI/AAAAAAAACow/XsOlR0SdPrY/s400/Screenshot_20160107_234410.png)](https://1.bp.blogspot.com/-LnQ3Y-5k03s/Vo6W0wToMVI/AAAAAAAACow/XsOlR0SdPrY/s1600/Screenshot_20160107_234410.png)
 
 And hit OK.  
 Then retry to run windows for installing.  

@@ -6,7 +6,7 @@ tags: [SimpleScreenRecorder, SSR, Record Desktop, Slackware, KDE]
 categories: [Linux, Multimedia]
 ---
 
-![simplescreenrecorder, record desktop, linux, tuxnoob.com](http://2.bp.blogspot.com/-hl2wBgsTXvo/VqHpTZcPDII/AAAAAAAAC2U/2eBvG0abOHU/s1600/Screenshot_20160122_152811.png)
+![simplescreenrecorder, record desktop, linux, tuxnoob.com](https://2.bp.blogspot.com/-hl2wBgsTXvo/VqHpTZcPDII/AAAAAAAAC2U/2eBvG0abOHU/s1600/Screenshot_20160122_152811.png)
 
 #### What Is SimpeScreenRecorder???
 
@@ -36,15 +36,15 @@ _source feature from maartenbaert.be_
 
 Open simplescreenrecorder on your menu, after show interface simplescreenrecorder select next and then you can create new profile. Like this screenshot:
 
-![simplescreenrecorder, record desktop, setting ssr,tuxnoob.com](http://4.bp.blogspot.com/-rW5DDAGVeis/VqH0aNg-s0I/AAAAAAAAC2s/I522SuirjTE/s1600/Screenshot_20160122_090029.png)
+![simplescreenrecorder, record desktop, setting ssr,tuxnoob.com](https://4.bp.blogspot.com/-rW5DDAGVeis/VqH0aNg-s0I/AAAAAAAAC2s/I522SuirjTE/s1600/Screenshot_20160122_090029.png)
 
 Or you can setting what do you want, like screen, height, width, frame rate.
 
-![simplescreenrecorder, record desktop, linux, tuxnoob.com](http://1.bp.blogspot.com/-vyswcLczbMQ/VqHz2cC4EeI/AAAAAAAAC2k/JmkDgygSjZ0/s1600/Screenshot_20160122_085950.png)
+![simplescreenrecorder, record desktop, linux, tuxnoob.com](https://1.bp.blogspot.com/-vyswcLczbMQ/VqHz2cC4EeI/AAAAAAAAC2k/JmkDgygSjZ0/s1600/Screenshot_20160122_085950.png)
 
 Last but not least, backend very important for output your audio sound. If it fits, select to continue step.
 
-![simplescreenrecorder, record desktop for linux, linux, kde, kde plasma 5, arief-jr.blogpsot.com, slackware](http://4.bp.blogspot.com/-C_XpecgxAXY/VqH474kI76I/AAAAAAAAC24/Rn26M-C7GzM/s1600/Screenshot_20160122_090246.png)
+![simplescreenrecorder, record desktop for linux, linux, kde, kde plasma 5, arief-jr.blogpsot.com, slackware](https://4.bp.blogspot.com/-C_XpecgxAXY/VqH474kI76I/AAAAAAAAC24/Rn26M-C7GzM/s1600/Screenshot_20160122_090246.png)
 
 For profile you can select youtube, or stream. Output file choose what do you want to saved, container menu choose format video like .MKV or .MP4 for youtube use .MP4 and still any step for capture screen desktop to make it look more attractive.
 

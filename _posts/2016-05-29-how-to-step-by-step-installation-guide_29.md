@@ -116,7 +116,7 @@ And if you got a problem like this screenshot, your type _"etc-update"_ to your 
 > \# mkdir /etc/portage/repos.conf  
 > \# cp /usr/share/portage/config/repos.conf /etc/portage/repos.conf/gentoo.conf
 
-now type above command again_"emerge genkernel"_ it should be work, but if not work you just ask to [forums.gentoo.org](http://forums.gentoo.org/)
+now type above command again_"emerge genkernel"_ it should be work, but if not work you just ask to [forums.gentoo.org](https://forums.gentoo.org/)
 
 ![](https://1.bp.blogspot.com/-iSdl1COBUko/V0p2q06PDgI/AAAAAAAADPk/wdBwHf-RFtIvgwXNwu4PCSXw8Z3K7WxuQCLcB/s1600/Screenshot_20160528_185317.png)
 

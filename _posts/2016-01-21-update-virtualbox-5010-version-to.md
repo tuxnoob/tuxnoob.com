@@ -6,7 +6,7 @@ tags: [VirtualBox, Update VirtualBox Version, Slackware]
 categories: [Linux, Virtual-Machine]
 ---
 
-![virtualbox, virtual-machine, linux, slackware, arief-jr.blogspot.com](http://1.bp.blogspot.com/-4dS_jSGzKQs/VqDwug5NBNI/AAAAAAAAC1w/a-yLM3wRqWA/s1600/Screenshot_20160121_214735.png)
+![virtualbox, virtual-machine, linux, slackware, arief-jr.blogspot.com](https://1.bp.blogspot.com/-4dS_jSGzKQs/VqDwug5NBNI/AAAAAAAAC1w/a-yLM3wRqWA/s1600/Screenshot_20160121_214735.png)
 | VirtualBox Version 5.0.10 |
 
 
@@ -41,14 +41,14 @@ Among the changes, we could see support for precisely limit the number of virtua
 **Download virtualbox and Install**  
 
 ```
-bash-4.3# wget http://download.virtualbox.org/virtualbox/5.0.14/VirtualBox-5.0.14-105127-Linux_amd64.run  
+bash-4.3# wget https://download.virtualbox.org/virtualbox/5.0.14/VirtualBox-5.0.14-105127-Linux_amd64.run  
 bash-4.3# chmod +x VirtualBox-5.0.14-105127-Linux_amd64.run  
 bash-4.3# ./VirtualBox-5.0.14-105127-Linux_amd64.run
 ```
 
 See this screenshot:  
 
-[![install virtualbox, update virtualbox version, arief-jr.blogspot.com](http://3.bp.blogspot.com/-kIlgerzwfiI/VqD8NfnRlwI/AAAAAAAAC2A/x6GOyPHsVSo/s1600/Screenshot_20160121_223442.png)
+[![install virtualbox, update virtualbox version, arief-jr.blogspot.com](https://3.bp.blogspot.com/-kIlgerzwfiI/VqD8NfnRlwI/AAAAAAAAC2A/x6GOyPHsVSo/s1600/Screenshot_20160121_223442.png)
 
 That is a litle tutorial and news about **Update VirtualBox Latest Version**[](https://tuxnoob.com/tags/virtualbox),  
 

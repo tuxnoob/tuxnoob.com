@@ -6,14 +6,14 @@ tags: [Blog, Blogspot, Attribution]
 categories: [Blogspot]
 ---
 
-![blogger](http://3.bp.blogspot.com/-NbzciKWsnQo/VoEx3FCRrsI/AAAAAAAACbc/LKv47NidUYs/s1600/Screenshot_20151228_195656.png)
+![blogger](https://3.bp.blogspot.com/-NbzciKWsnQo/VoEx3FCRrsI/AAAAAAAACbc/LKv47NidUYs/s1600/Screenshot_20151228_195656.png)
 
 
 ### **How Remove Attribution "Template simple. Powered By Blogger" ???**
 
 For remove this attribution on blogger is very easy, and allowed by owner ie **Google**.  
 Why we want remove this attritbution?? because if you don't want the look footer or you bored because default blogger template always show attribution and can't remove.  
-Here will share, [**how to remove attribution default blogger template**](http://arief-jr.blogspot.com/search/label/Attribution).  
+Here will share, [**how to remove attribution default blogger template**](https://arief-jr.blogspot.com/search/label/Attribution).  
 There are 3 ways to eliminate attribution on default blogger template :  
   
 

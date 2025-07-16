@@ -82,13 +82,13 @@ Now download and extract gentoo stage3 tarball. Before download the stage3 tarba
 Now download gentoo stage3 tarball;
 
 > # cd /mnt/gentoo  
-> # links http://www.gentoo.org/main/en/mirrors.xml
+> # links https://www.gentoo.org/main/en/mirrors.xml
 
 ![](https://3.bp.blogspot.com/-9cG3wP9LUA0/V0khlJjNjhI/AAAAAAAADM4/tR6ljdqaa5QsFNVaq4i9ItjCUyDwpz0IQCLcB/s1600/Screenshot_20160528_113553.png)
 
 Select **Mirrors** and press **space keyboard** to continue,  
 
-And i select http://ftp.jaist.ac.jp/pub/Linux/Gentoo/
+And i select https://ftp.jaist.ac.jp/pub/Linux/Gentoo/
 
 ![](https://2.bp.blogspot.com/-m4Z_djLSLyM/V0kirWSuwzI/AAAAAAAADNE/dWI6rXPUnFY8SeW8Z93vIYArehZT5dA1ACLcB/s1600/Screenshot_20160528_114041.png)
 

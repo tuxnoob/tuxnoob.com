@@ -6,7 +6,7 @@ tags: [Bash Shell, Basic Linux Command, Slackware]
 categories: [Linux]
 ---
 
-![](http://2.bp.blogspot.com/-CJJeNuACKxk/VpRjXdpYQ_I/AAAAAAAACto/wGa5Ja9kYUM/s1600/Screenshot_20160112_083215.png)
+![](https://2.bp.blogspot.com/-CJJeNuACKxk/VpRjXdpYQ_I/AAAAAAAACto/wGa5Ja9kYUM/s1600/Screenshot_20160112_083215.png)
 
 **Tuxnoob -** This time i will share to learn about [basic linux-command](https://tuxnoob.com/tags/bash-shell), i think this article may be very suitable for those who want to learn about linux.  
 

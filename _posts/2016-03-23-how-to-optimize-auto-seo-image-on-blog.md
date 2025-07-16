@@ -9,7 +9,7 @@ categories: [Blog, Blosgpsot, SEO]
 ![](https://4.bp.blogspot.com/-k0jdywHggXs/VvGKwfnEejI/AAAAAAAADEk/QNAXQii9tYcJFZr2qukj18dNeraEOX5lw/s1600/Seo-image.png)
 
 
-Many blogger to competiting for get top rank google, like content writer, put breadcrumb and etc. But you have still less for SEO, one of each this image, yep image govern too. This post will share for seo auto optimation image on blog, this matter do this for image your blog auto indexed by search engine like google, bing, yandex etc. So you are not bothered with manual increase at description such as **&lt;image="description your image" height="50" src="http://image.png" width="25"/&gt;** when create this post.  
+Many blogger to competiting for get top rank google, like content writer, put breadcrumb and etc. But you have still less for SEO, one of each this image, yep image govern too. This post will share for seo auto optimation image on blog, this matter do this for image your blog auto indexed by search engine like google, bing, yandex etc. So you are not bothered with manual increase at description such as **&lt;image="description your image" height="50" src="https://image.png" width="25"/&gt;** when create this post.  
 
 This matter can troublesome until manual increase one by one image. Because image is way to get unique visitor or set off interface, next this step for create auto optimation SEO image;  
 

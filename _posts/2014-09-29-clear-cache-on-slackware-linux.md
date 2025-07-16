@@ -60,5 +60,5 @@ Then give access permission, for auto running when system was shutdown.
 # chmod +x cleanstale.sh
 ```
   
-or can using bleachbit, if want installing bleachbit on slackware download in [slackbuilds.org](http://slackbuilds.org/repository/14.1/system/bleachbit/?search=bleachbit)  
+or can using bleachbit, if want installing bleachbit on slackware download in [slackbuilds.org](https://slackbuilds.org/repository/14.1/system/bleachbit/?search=bleachbit)  
 Thanks anyway!

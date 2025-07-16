@@ -6,7 +6,7 @@ tags: [Networking Tools Simulator, Cisco Packet Tracer]
 categories: [Cisco]
 ---
 
-continuation of [SWITCH AND ROUTER BASIC CONFIGURATION ON CISCO PART 1](http://arief-jr.blogspot.com/2015/10/switch-and-router-basic-configuration.html)  
+continuation of [SWITCH AND ROUTER BASIC CONFIGURATION ON CISCO PART 1](https://arief-jr.blogspot.com/2015/10/switch-and-router-basic-configuration.html)  
   
 okay for configuration interface at ports on cisco router, follows below:  
   

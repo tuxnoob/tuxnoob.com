@@ -304,7 +304,7 @@ sudo systemctl restart apache2
 ```
 
 ### Complete Postfix Admin Setup via Web Browser
-Open your web browser and navigate to `http://mail.example.com/setup.php` to complete the Postfix Admin setup.
+Open your web browser and navigate to `https://mail.example.com/setup.php` to complete the Postfix Admin setup.
 - Follow the on-screen instructions to create the setup password with generate password hash, don't forget save the password hash.
 - Enter the setup password and create the Postfix Admin superuser.
 

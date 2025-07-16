@@ -9,7 +9,7 @@ categories: [CMS Web, Wordpress, Linux]
 hello every body, i would like to tell us a bit.  
 from first installed wordpress cms in my laptop, I use the operating system Slackware Linux.  
 i was inspired for make a tutorial in my blog :)  
-okay first you must download [Wordpress](http://wordpress.org), after downloaded extract zip file to your path directory e.g: `/var/www/htdocs/` (SLackware)  
+okay first you must download [Wordpress](https://wordpress.org), after downloaded extract zip file to your path directory e.g: `/var/www/htdocs/` (SLackware)  
 
 ```
 # unzip -d wordpress-X.X.X-XX_XX.zip /var/www/htdocs  

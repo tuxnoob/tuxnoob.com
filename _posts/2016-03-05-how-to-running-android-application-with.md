@@ -13,7 +13,7 @@ Exactly this article may has long heard. But i need for write as my documentatio
 
 #### First starting Genymotion
 
-Of course, must download genymotion on this site http://genymotion.com/. Before download, you must sign up (if not have genymotion account) or sign up (if you have genymotion account).  
+Of course, must download genymotion on this site https://genymotion.com/. Before download, you must sign up (if not have genymotion account) or sign up (if you have genymotion account).  
 Choose version ubuntu-14.04 amd64 to download, because i'm using slackware64-current version. Like below this screenshot:
 
 ![](https://1.bp.blogspot.com/-b9D6FmsB98A/Vto9YaLn57I/AAAAAAAADAM/C2MNpmwfgDs/s1600/Genymotion1.png)
@@ -37,14 +37,14 @@ After download and installing, now click to start.
 
 For installing android application, like blackberry messenger, instagram etc. You must installing google play service on this emulator. For installing android device, follow this instruction:
 
-* Before installing google play service, first install Genymotion-ARM-translation on your emulator. Download here: [http://filetrip.net/dl?4SUOrdcMRv](http://filetrip.net/dl?4SUOrdcMRv)
+* Before installing google play service, first install Genymotion-ARM-translation on your emulator. Download here: [https://filetrip.net/dl?4SUOrdcMRv](https://filetrip.net/dl?4SUOrdcMRv)
 * For installing simply use drag & drop to emulator, and wait until finished. Then reboot device, on linux i type command with "_adb reboot_" on genymotion directory (genymotion/tools/adb)
 
 _note: If can't reboot, force close android device on genymotion and then      start again genymotion_  
 
 *  After reboot device, now install google play service, see this site:
 
-( _http://inthecheesefactory.com/blog/how-to-install-google-services-on-genymotion/en_ )  
+( _https://inthecheesefactory.com/blog/how-to-install-google-services-on-genymotion/en_ )  
 
 * And did back like point 2
 

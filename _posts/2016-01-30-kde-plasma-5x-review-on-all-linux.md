@@ -6,7 +6,7 @@ tags: [KDE, Plasma 5, Review ]
 categories: [Linux]
 ---
 
-![](http://1.bp.blogspot.com/-tdp2GJXybHM/VqysyACZNjI/AAAAAAAAC7E/440iln80lek/s1600/Screenshot_20160130_192207.png)
+![](https://1.bp.blogspot.com/-tdp2GJXybHM/VqysyACZNjI/AAAAAAAAC7E/440iln80lek/s1600/Screenshot_20160130_192207.png)
 
 if there was ever an open source project . as a great example of evolution innovation and design que te would have to be one of them the K desktop environment has a long heritage of providing the power use it with all the bells and whistles he or she could ever need.
 

@@ -15,24 +15,24 @@ Okay, first add debian-wheezy-virtualbox repository to /etc/apt/sources.list.
 
 
 
-![Screenshot_from_2013_05_22_10_09_45](http://slackerstsm.files.wordpress.com/2013/05/screenshot_from_2013_05_22_10_09_45.png)
+![Screenshot_from_2013_05_22_10_09_45](https://slackerstsm.files.wordpress.com/2013/05/screenshot_from_2013_05_22_10_09_45.png)
 
 
 ### 1. Here i using leafpad text editor, see this screenshot : 
 
-![Screenshot from 2013-05-22 11:03:17](http://slackerstsm.files.wordpress.com/2013/05/screenshot-from-2013-05-22-110317.png)
+![Screenshot from 2013-05-22 11:03:17](https://slackerstsm.files.wordpress.com/2013/05/screenshot-from-2013-05-22-110317.png)
 
 
 ### 2. Then add repository which word i blocked : 
 
-![Screenshot from 2013-05-22 11:03:36](http://slackerstsm.files.wordpress.com/2013/05/screenshot-from-2013-05-22-110336.png)
+![Screenshot from 2013-05-22 11:03:36](https://slackerstsm.files.wordpress.com/2013/05/screenshot-from-2013-05-22-110336.png)
 
 Save and exit.
 
 
 ### 3.  Still on terminal and insert : 
 
-![Screenshot from 2013-05-22 11:10:28](http://slackerstsm.files.wordpress.com/2013/05/screenshot-from-2013-05-22-111028.png)
+![Screenshot from 2013-05-22 11:10:28](https://slackerstsm.files.wordpress.com/2013/05/screenshot-from-2013-05-22-111028.png)
 
 
 Press enter and update system :
@@ -44,7 +44,7 @@ apt-get update -y
 
 ### 4. And then type command for installation virtualbox :
 
-![Screenshot from 2013-05-22 11:15:14](http://slackerstsm.files.wordpress.com/2013/05/screenshot-from-2013-05-22-111514.png)
+![Screenshot from 2013-05-22 11:15:14](https://slackerstsm.files.wordpress.com/2013/05/screenshot-from-2013-05-22-111514.png)
 
 If get an error message with dkms, for fix type command: 
 
@@ -57,7 +57,7 @@ If get an error message with dkms, for fix type command:
 
 We can see with running on terminal if fixed :
 
-![Screenshot from 2013-05-22 11:21:37](http://slackerstsm.files.wordpress.com/2013/05/screenshot-from-2013-05-22-112137.png) 
+![Screenshot from 2013-05-22 11:21:37](https://slackerstsm.files.wordpress.com/2013/05/screenshot-from-2013-05-22-112137.png) 
 
 
 Thanks anyway

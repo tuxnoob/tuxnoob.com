@@ -6,10 +6,10 @@ tags: [Networking Tools Simulator, Cisco Packet Tracer]
 categories: [Cisco]
 ---
 
-![inter v-lan routing](http://3.bp.blogspot.com/-hvfqX9OvNO4/Vhc5gUtKB1I/AAAAAAAACQY/zgWmr1uEBGM/s1600/routing%2Binter%2Bv-lan.PNG)
+![inter v-lan routing](https://3.bp.blogspot.com/-hvfqX9OvNO4/Vhc5gUtKB1I/AAAAAAAACQY/zgWmr1uEBGM/s1600/routing%2Binter%2Bv-lan.PNG)
 
   
-[How configuration inter v-lan routing with packet tracer?](http://arief-jr.blogspot.com/)  
+[How configuration inter v-lan routing with packet tracer?](https://arief-jr.blogspot.com/)  
 Okay now i will give some a tutorial for practice, the following commands below:  
   
 

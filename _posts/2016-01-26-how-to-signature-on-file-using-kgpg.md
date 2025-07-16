@@ -8,7 +8,7 @@ categories: [Linux]
 
 This time i will share to create digital signature on file using **KGPG**. **KGPG** is a software for create signature, encryption etc and is application KDE default.
 
-![](http://1.bp.blogspot.com/-eHQQykqtQ8c/VqdVoD9hiaI/AAAAAAAAC5c/XuYNwAgIEng/s1600/Screenshot_20160126_175620.png)
+![](https://1.bp.blogspot.com/-eHQQykqtQ8c/VqdVoD9hiaI/AAAAAAAAC5c/XuYNwAgIEng/s1600/Screenshot_20160126_175620.png)
 
 Now open kgpg like above screenshot, after opened select keys and choose generate key pair.  
 Input name, email, comment or if you want expire you can select never to years, month, week or day.  

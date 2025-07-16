@@ -10,7 +10,7 @@ This experience when i installing backtrack 5, and i got a problem with wicd. Pr
   
 See this screenshot:  
   
-![Wicd_error](http://slackerstsm.files.wordpress.com/2013/05/wicd_error.png)  
+![Wicd_error](https://slackerstsm.files.wordpress.com/2013/05/wicd_error.png)  
   
 For fixed this problem, following step by step:  
   

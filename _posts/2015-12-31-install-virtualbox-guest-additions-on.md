@@ -6,7 +6,7 @@ tags: [Debian, Kali Linux, VirtualBox]
 categories: [Virtual-Machine, Linux]
 ---
 
-![](http://2.bp.blogspot.com/-eMJ5A_XFw1s/VoQimtfwpmI/AAAAAAAACgU/fFYCsSAfhVI/s1600/Screenshot_20151231_012625.png)
+![](https://2.bp.blogspot.com/-eMJ5A_XFw1s/VoQimtfwpmI/AAAAAAAACgU/fFYCsSAfhVI/s1600/Screenshot_20151231_012625.png)
 
 
 ### Install VirtualBox Guest Additions In Kali Linux....
@@ -22,12 +22,12 @@ as the following example :
 
 ```
 #Regular Repositories  
-deb http://http.kali.org/kali sana main non-free contrib  
-deb http://security.kali.org/kali-security sana/updates main contrib non-free  
+deb https://http.kali.org/kali sana main non-free contrib  
+deb https://security.kali.org/kali-security sana/updates main contrib non-free  
 
 #Source Repositories  
-deb-src http://http.kali.org/kali sana main non-free contrib  
-deb-src http://security.kali.org/kali-security sana/updates main contrib non-free
+deb-src https://http.kali.org/kali sana main non-free contrib  
+deb-src https://security.kali.org/kali-security sana/updates main contrib non-free
 ```
 
 After checking your kali linux repository, then type command with :  
@@ -38,7 +38,7 @@ After checking your kali linux repository, then type command with :
 
 But after update & install linux-header i get message like this :  
 
-![](http://1.bp.blogspot.com/-ltd7btovNS8/VoTZC_86LVI/AAAAAAAACgk/k146AUBiBhU/s1600/Screenshot_20151230_194312.png)
+![](https://1.bp.blogspot.com/-ltd7btovNS8/VoTZC_86LVI/AAAAAAAACgk/k146AUBiBhU/s1600/Screenshot_20151230_194312.png)
 
 For this solution, i type update & upgrade command :  
 
@@ -57,7 +57,7 @@ Okay, Done.
 Now for install VBOXADDITIONS.iso from virtualbox, select menu on devices like this  
 
 
-![](http://1.bp.blogspot.com/-9vGLEuZb3nQ/VoTa5c4f89I/AAAAAAAACgw/_3zkAMZe8MY/s1600/Screenshot_20151231_143501.png)
+![](https://1.bp.blogspot.com/-9vGLEuZb3nQ/VoTa5c4f89I/AAAAAAAACgw/_3zkAMZe8MY/s1600/Screenshot_20151231_143501.png)
 
 and select insert virtualbox guest image.  
 
@@ -65,7 +65,7 @@ Wait for a second, this VBOXADDITIONS.iso will mounted on desktop like this uppe
 
 After mounted, will show this message for run this software and happen this software can't run like this pictures :  
 
-![](http://4.bp.blogspot.com/-mIbzPg5ZdyU/VoTcL00CUTI/AAAAAAAACg8/Y3YG4xRMTBA/s1600/Screenshot_20151231_143829.png)
+![](https://4.bp.blogspot.com/-mIbzPg5ZdyU/VoTcL00CUTI/AAAAAAAACg8/Y3YG4xRMTBA/s1600/Screenshot_20151231_143829.png)
 
 Alternatives, you must copy this VBoxAdditions.run to your place e.g /root/  
 
@@ -76,7 +76,7 @@ Alternatives, you must copy this VBoxAdditions.run to your place e.g /root/
 # ./VBoxLinuxAdditions.run
 ```
 
-![](http://1.bp.blogspot.com/-4DVWnEgRwGI/VoTdzq0AU0I/AAAAAAAAChI/ufIrLH98qxc/s1600/Screenshot_20151230_215635.png)
+![](https://1.bp.blogspot.com/-4DVWnEgRwGI/VoTdzq0AU0I/AAAAAAAAChI/ufIrLH98qxc/s1600/Screenshot_20151230_215635.png)
 
 
 After complete Guest Additions installation, reboot your Kali Linux VM. And then you can see display mouse and screen integration as well as the ability to share folders with the host system.  
@@ -87,12 +87,12 @@ After installation guest additions completed, now can create shared folders on s
 
 From the virtualbox manager, select menu on devices > shared folders > and choose what you want folders shared.  
 
-![](http://3.bp.blogspot.com/-fjkwto1hxbc/VoThQ7if0hI/AAAAAAAAChU/POWsPzi2K9g/s1600/Screenshot_20151231_144450.png)
+![](https://3.bp.blogspot.com/-fjkwto1hxbc/VoThQ7if0hI/AAAAAAAAChU/POWsPzi2K9g/s1600/Screenshot_20151231_144450.png)
 
 After changed, now reboot your VM machine.  
 This should be show like this picture :  
 
-![](http://4.bp.blogspot.com/-0qzAy14NpNE/VoThjxJAiWI/AAAAAAAAChc/oAIQ6qr_KOk/s1600/Screenshot_20151231_145410.png)
+![](https://4.bp.blogspot.com/-0qzAy14NpNE/VoThjxJAiWI/AAAAAAAAChc/oAIQ6qr_KOk/s1600/Screenshot_20151231_145410.png)
  
   
   

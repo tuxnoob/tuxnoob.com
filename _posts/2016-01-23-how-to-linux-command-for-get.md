@@ -8,7 +8,7 @@ categories: [Linux]
 
 Exactly, this tutorial has a long existence but in my mind has occured for make their own documentation.  
 
-![](http://2.bp.blogspot.com/-5A586UvSjog/VpnOZLXE1QI/AAAAAAAACxM/RPVNaifSyS8/s1600/linux_command.png)
+![](https://2.bp.blogspot.com/-5A586UvSjog/VpnOZLXE1QI/AAAAAAAACxM/RPVNaifSyS8/s1600/linux_command.png)
 
 Yeah for get this information about reboot and shutdown, please notice either good or follow instruction this below:  
 

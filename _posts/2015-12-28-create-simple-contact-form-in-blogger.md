@@ -7,17 +7,17 @@ tags: [Blog, Blogspot, Contact]
 categories: [Blogspot]
 ---
 
-![](http://3.bp.blogspot.com/-ii4Gr87g1k8/VnIcj5VfK9I/AAAAAAAACZ0/BrFBticW-Cg/s1600/snapshot33.png)
+![](https://3.bp.blogspot.com/-ii4Gr87g1k8/VnIcj5VfK9I/AAAAAAAACZ0/BrFBticW-Cg/s1600/snapshot33.png)
 
-Okay, i will explain how **[Create Simple Contact Form In Blogger](http://arief-jr.blogspot.com/seach/label/blogspot).** Why is simple contact form?? because for create this contact form we don't need third-party website. Talk Contact form is very important i think, cause function as correspondence and personal media. Although there are already many other media, however contact form page be choose for privacy guard between the two sides, That is blog/websiter owner and User Visitor.  
+Okay, i will explain how **[Create Simple Contact Form In Blogger](https://arief-jr.blogspot.com/seach/label/blogspot).** Why is simple contact form?? because for create this contact form we don't need third-party website. Talk Contact form is very important i think, cause function as correspondence and personal media. Although there are already many other media, however contact form page be choose for privacy guard between the two sides, That is blog/websiter owner and User Visitor.  
 
 ### **Add Contact Form Widget To Blog**
 
-Before tide contact page on blogspot, you must add widget contact form on layout blogspot e.g [**layout page > add gadget > contact form**](http://arief-jr.blogspot.com/seach/label/Contact) and put in any place.  
+Before tide contact page on blogspot, you must add widget contact form on layout blogspot e.g [**layout page > add gadget > contact form**](https://arief-jr.blogspot.com/seach/label/Contact) and put in any place.  
   
   
 
- ![](http://2.bp.blogspot.com/-_004Ga5A8sQ/Vn6Rkthq2fI/AAAAAAAACbM/J1a_rtFsASk/s1600/Screenshot_20151226_200612.png)  
+ ![](https://2.bp.blogspot.com/-_004Ga5A8sQ/Vn6Rkthq2fI/AAAAAAAACbM/J1a_rtFsASk/s1600/Screenshot_20151226_200612.png)  
 
   
 
@@ -63,4 +63,4 @@ For create contact us on your blog page, you can create new post or new page on 
 > &lt;/div&gt;
 
 
-### **[DEMO](http://arief-jr.blogspot.com/p/contact_1.html)**
+### **[DEMO](https://arief-jr.blogspot.com/p/contact_1.html)**

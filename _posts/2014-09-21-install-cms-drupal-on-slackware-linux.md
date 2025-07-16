@@ -63,7 +63,7 @@ If successful, MySQL will reply with:
 
 Run the installation script  
 
-You are now ready to run the installation script. Point your browser to the base URL of your website (e.g. http://www.example.com, http://www.example.com/drupal or http://localhost/drupal).  
+You are now ready to run the installation script. Point your browser to the base URL of your website (e.g. https://www.example.com, https://www.example.com/drupal or https://localhost/drupal).  
   
 The installation wizard will guide you through several screens to set up the database, add the first user account, and provide basic website settings. Follow the wizard to finalize the installation and start working with your Drupal website.  
 may be useful, thanks ;)  

@@ -6,11 +6,11 @@ tags: [GIMP, Slackware, Force Close, KDE]
 categories: [Linux, GIMP]
 ---
 
-**Tuxnoob -** The real problem of the day ago, like on video. I'm using Slackware and [KDE plasma 5](http://arief-jr.blogspot.com/search/label/KDE) as Desktop Environment, I don't know whether it be a factor in KDE or nope clearness i got this problem.  
+**Tuxnoob -** The real problem of the day ago, like on video. I'm using Slackware and [KDE plasma 5](https://arief-jr.blogspot.com/search/label/KDE) as Desktop Environment, I don't know whether it be a factor in KDE or nope clearness i got this problem.  
 
 And i run gimp with konsole to find this real problem, and i get this message like this :  
 
-![](http://1.bp.blogspot.com/-G5d6v_umBME/VpT7Zw-R3HI/AAAAAAAACuI/gcdaepeTPBw/s1600/Screenshot_20160112_200105.png)
+![](https://1.bp.blogspot.com/-G5d6v_umBME/VpT7Zw-R3HI/AAAAAAAACuI/gcdaepeTPBw/s1600/Screenshot_20160112_200105.png)
 
 
 After get a message onto screenshot, at screenshot message explain :  

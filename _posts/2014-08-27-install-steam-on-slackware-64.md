@@ -6,7 +6,7 @@ tags: [Steam, Slackware, Games]
 categories: [Linux]
 ---
 
-After I read the post article [MR.Alien](http://alien.slackbook.org) :), I was interested in making a post on my blog. :)
+After I read the post article [MR.Alien](https://alien.slackbook.org) :), I was interested in making a post on my blog. :)
 but I see that it's only for the 32-bit Slackware version, but if you look at it in more detail, it turns out that it can also be installed on 64-bit Slackware :)
 The first step you have to install is:
 
@@ -17,10 +17,10 @@ The first step you have to install is:
 
   
 To install the software above, please click this link
-**[OpenAL](http://www.slackware.com/~alien/slackbuilds/OpenAL/pkg/)**
-**[flashplayer-plugin](http://www.slackware.com/~alien/slackbuilds/flashplayer-plugin/pkg/)**
-**[Multilib](http://www.slackware.com/~alien/multilib/)**
+**[OpenAL](https://www.slackware.com/~alien/slackbuilds/OpenAL/pkg/)**
+**[flashplayer-plugin](https://www.slackware.com/~alien/slackbuilds/flashplayer-plugin/pkg/)**
+**[Multilib](https://www.slackware.com/~alien/multilib/)**
 Well there you can find according to your version of Slackware
 Thanks ;)
   
-**Source: [Eric Hameleers](http://alien.slackbook.org)**
+**Source: [Eric Hameleers](https://alien.slackbook.org)**

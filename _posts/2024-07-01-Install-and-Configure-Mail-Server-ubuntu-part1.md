@@ -187,13 +187,13 @@ The following NEW packages will be installed:
 0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
 Need to get 3786 kB of archives.
 After this operation, 12.2 MB of additional disk space will be used.
-Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 libexttextcat-data all 3.4.5-1build2 [179 kB]
-Get:2 http://archive.ubuntu.com/ubuntu jammy/main amd64 libexttextcat-2.0-0 amd64 3.4.5-1build2 [13.7 kB]
-Get:3 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 dovecot-core amd64 1:2.3.16+dfsg1-3ubuntu2.2 [3319 kB]
-Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 dovecot-imapd amd64 1:2.3.16+dfsg1-3ubuntu2.2 [193 kB]
-Get:5 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 dovecot-lmtpd amd64 1:2.3.16+dfsg1-3ubuntu2.2 [29.4 kB]
-Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 dovecot-mysql amd64 1:2.3.16+dfsg1-3ubuntu2.2 [13.9 kB]
-Get:7 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 dovecot-pop3d amd64 1:2.3.16+dfsg1-3ubuntu2.2 [37.7 kB]
+Get:1 https://archive.ubuntu.com/ubuntu jammy/main amd64 libexttextcat-data all 3.4.5-1build2 [179 kB]
+Get:2 https://archive.ubuntu.com/ubuntu jammy/main amd64 libexttextcat-2.0-0 amd64 3.4.5-1build2 [13.7 kB]
+Get:3 https://archive.ubuntu.com/ubuntu jammy-updates/main amd64 dovecot-core amd64 1:2.3.16+dfsg1-3ubuntu2.2 [3319 kB]
+Get:4 https://archive.ubuntu.com/ubuntu jammy-updates/main amd64 dovecot-imapd amd64 1:2.3.16+dfsg1-3ubuntu2.2 [193 kB]
+Get:5 https://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 dovecot-lmtpd amd64 1:2.3.16+dfsg1-3ubuntu2.2 [29.4 kB]
+Get:6 https://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 dovecot-mysql amd64 1:2.3.16+dfsg1-3ubuntu2.2 [13.9 kB]
+Get:7 https://archive.ubuntu.com/ubuntu jammy-updates/main amd64 dovecot-pop3d amd64 1:2.3.16+dfsg1-3ubuntu2.2 [37.7 kB]
 Fetched 3786 kB in 2s (1804 kB/s)
 Selecting previously unselected package libexttextcat-data.
 (Reading database ... 95621 files and directories currently installed.)
@@ -253,7 +253,7 @@ sudo apt install -y libdbi-perl libdbd-mysql-perl
 
 ### Install OpenDKIM
 
-OpenDKIM is an open source implementation of the DKIM (Domain Keys Identified Mail) sender authentication system proposed by the E-mail Signing Technology Group (ESTG), now standardized by the IETF [RFC6376](http://www.ietf.org/rfc/rfc6376.txt). So that the other email servers can authenticate the emails sent from our server and confirm that the emails are not forged or altered and the emails are authorized by the domain owner, execute this command:
+OpenDKIM is an open source implementation of the DKIM (Domain Keys Identified Mail) sender authentication system proposed by the E-mail Signing Technology Group (ESTG), now standardized by the IETF [RFC6376](https://www.ietf.org/rfc/rfc6376.txt). So that the other email servers can authenticate the emails sent from our server and confirm that the emails are not forged or altered and the emails are authorized by the domain owner, execute this command:
 
 ```sh
 sudo apt install -y opendkim opendkim-tools
@@ -602,7 +602,7 @@ Insert this config:
 #
 # Postfix master process configuration file.  For details on the format
 # of the file, see the master(5) manual page (command: "man 5 master" or
-# on-line: http://www.postfix.org/master.5.html).
+# on-line: https://www.postfix.org/master.5.html).
 #
 # Do not forget to execute "postfix reload" after editing this file.
 #

@@ -17,7 +17,7 @@ first remove/delete the iceweasel package/application on your kali linux
 then enter the repository to **_/apt/sources.list_**
 
 ```
-# echo -e "\\ndeb http://downloads.sourceforge.net/project/ubuntuzilla/mozilla/apt all main" | tee -a /etc/apt/sources.list > /dev/null
+# echo -e "\\ndeb https://downloads.sourceforge.net/project/ubuntuzilla/mozilla/apt all main" | tee -a /etc/apt/sources.list > /dev/null
 ```
   
 then do the command as below:
@@ -43,4 +43,4 @@ then do the firefox software installation command
 Hope it is useful ;)
   
   
-**_source:_**[kali linux](http://forums.kali.org/)
+**_source:_**[kali linux](https://forums.kali.org/)

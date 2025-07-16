@@ -19,11 +19,11 @@ Perhaps you noticed the directory name for KDE5 is “5″ and not “5.0.2″ o
   
 Using a mirror is preferred because you get more bandwidth from a mirror and it’s friendlier to the owners of the master server!  
   
-[http://alien.slackbook.org/ktown/](http://alien.slackbook.org/ktown/) (the master repository), rsync URI: rsync://alien.slackbook.org/alien/ktown/  
-[http://taper.alienbase.nl/mirrors/alien-kde/](http://taper.alienbase.nl/mirrors/alien-kde/) (my fast US mirror), rsync URI: rsync://taper.alienbase.nl/mirrors/alien-kde/  
-[http://repo.ukdw.ac.id/alien-kde/](http://repo.ukdw.ac.id/alien-kde/) (willysr’s Indonesian mirror), rsync URI: rsync://repo.ukdw.ac.id/alien-kde/  
-[http://slackware.org.uk/people/alien-kde/](http://slackware.org.uk/people/alien-kde/) (fast UK based mirror, run by Darren Austin), rsync URI: rsync://slackware.org.uk/people/alien-kde/  
-dont't forget read file [README](http://taper.alienbase.nl/mirrors/alien-kde/current/testing/README) for kde 5 and [README](http://alien.slackbook.org/ktown/current/4.14.1/README) for kde 4.  
+[https://alien.slackbook.org/ktown/](https://alien.slackbook.org/ktown/) (the master repository), rsync URI: rsync://alien.slackbook.org/alien/ktown/  
+[https://taper.alienbase.nl/mirrors/alien-kde/](https://taper.alienbase.nl/mirrors/alien-kde/) (my fast US mirror), rsync URI: rsync://taper.alienbase.nl/mirrors/alien-kde/  
+[https://repo.ukdw.ac.id/alien-kde/](https://repo.ukdw.ac.id/alien-kde/) (willysr’s Indonesian mirror), rsync URI: rsync://repo.ukdw.ac.id/alien-kde/  
+[https://slackware.org.uk/people/alien-kde/](https://slackware.org.uk/people/alien-kde/) (fast UK based mirror, run by Darren Austin), rsync URI: rsync://slackware.org.uk/people/alien-kde/  
+dont't forget read file [README](https://taper.alienbase.nl/mirrors/alien-kde/current/testing/README) for kde 5 and [README](https://alien.slackbook.org/ktown/current/4.14.1/README) for kde 4.  
   
   
 thanks :)  
@@ -31,5 +31,5 @@ thanks :)
   
   
 _thanks to:_  
-[Willy Sudiarto Rahardjo](http://slackblogs.blogspot.com/)  
-[Eric Hameleers](http://alien.slackbook.org/blog/)
+[Willy Sudiarto Rahardjo](https://slackblogs.blogspot.com/)  
+[Eric Hameleers](https://alien.slackbook.org/blog/)

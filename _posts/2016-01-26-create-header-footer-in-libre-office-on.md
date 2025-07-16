@@ -6,7 +6,7 @@ tags: [Libreoffice, Header, Footer, OpenSource]
 categories: [Linux, Office]
 ---
 
-![](http://3.bp.blogspot.com/-mlyqQtuc3w4/VqeR2jHpDyI/AAAAAAAAC5s/DRHjsLUnyuU/s1600/Screenshot_20160126_201250.png)
+![](https://3.bp.blogspot.com/-mlyqQtuc3w4/VqeR2jHpDyI/AAAAAAAAC5s/DRHjsLUnyuU/s1600/Screenshot_20160126_201250.png)
 
 This night i will share **How To Create Header/Footer In LibreOffice different page**. Exactly this article new in this update, actually is easy for create header or footer on libreoffice but if the new use libreoffice will very confuse.  
 
@@ -23,7 +23,7 @@ For Create this header different page, follow this step:
 * Check Insert on Breaks, select tab type to page and position before
 * After check insert, now check with page style. The next can be seen at under screenshot
 
-![](http://3.bp.blogspot.com/-QCVFUg2Qflc/VqejnxSZ5rI/AAAAAAAAC6I/2s1liTCa_h0/s1600/Screenshot_20160126_234347.png)
+![](https://3.bp.blogspot.com/-QCVFUg2Qflc/VqejnxSZ5rI/AAAAAAAAC6I/2s1liTCa_h0/s1600/Screenshot_20160126_234347.png)
 
 
 How easy is not? thus the article very helpful so......  

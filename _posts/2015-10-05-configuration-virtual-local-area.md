@@ -6,7 +6,7 @@ tags: [Networking Tools Simulator, Cisco Packet Tracer]
 categories: [Cisco]
 ---
 
-**[Following below This Configuration:](http://arief-jr.blogspot.com/2015/10/configuration-virtual-local-area.html)**
+**[Following below This Configuration:](https://arief-jr.blogspot.com/2015/10/configuration-virtual-local-area.html)**
 
 ![V-LAN](https://4.bp.blogspot.com/-jruz88NhNvE/VhHf0RapyOI/AAAAAAAACLk/j4815q4A7TY/s1600/konfigurasi%2Bv-lan.PNG)
 
@@ -42,4 +42,4 @@ Configuration v-lan over, form basically config v-lan. e.g name: **vlan10**,**vl
 you can see this video:  
   
   
-**_Next_**: [Configuration V-LAN - Trunking](http://arief-jr.blogspot.com/search/label/trunking)
+**_Next_**: [Configuration V-LAN - Trunking](https://arief-jr.blogspot.com/search/label/trunking)

@@ -102,7 +102,7 @@ sudo ufw allow 15672/tcp
 Access the management interface via a web browser.
 
 ```html
-http://<your_server_ip>:15672/
+https://<your_server_ip>:15672/
 ```
 
 ![rabbitmq-dashboard](/assets/images/rabbitmq-interface.jpeg)

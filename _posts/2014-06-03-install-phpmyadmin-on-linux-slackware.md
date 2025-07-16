@@ -10,8 +10,8 @@ night all :D i share how install phpMyadmin on Slackware Linux :) i started usin
 okay check it out :D  
 
 
-### 1. you can download phpMyAdmin on [SlackBuild](http://SlackBuilds.org "SlackBuild") and then you install.  
-### 2. you can download manually if you want new phpMyAdmin on [phpMyAdmin](http://phpmyadmin.net "phpmyadmin")  
+### 1. you can download phpMyAdmin on [SlackBuild](https://SlackBuilds.org "SlackBuild") and then you install.  
+### 2. you can download manually if you want new phpMyAdmin on [phpMyAdmin](https://phpmyadmin.net "phpmyadmin")  
 * for manually download
 [ after download, extract phpMyAdmin file to `/home/` and then move `phpMyAdmin-XXX` to `/var/www/htdocs/phpMyAdmin` and then you need configuration this file on httpd that phpMyAdmin to work.  
 
@@ -55,7 +55,7 @@ and restart httpd again :
 ```
 
 for testing you can access on your web browser :  
-http://localhost/phpMyAdmin  
+https://localhost/phpMyAdmin  
 
 
 **Thanks**

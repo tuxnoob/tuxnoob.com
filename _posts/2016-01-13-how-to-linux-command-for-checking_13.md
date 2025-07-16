@@ -6,7 +6,7 @@ tags: [Rootkit, Tools, Rkhunter]
 categories: [Linux]
 ---
 
-![](http://2.bp.blogspot.com/-N5mPBD_Y1_4/VpUn4YJ4yeI/AAAAAAAACuw/2lBNfIzRYsg/s1600/Screenshot_20160112_231820.png)
+![](https://2.bp.blogspot.com/-N5mPBD_Y1_4/VpUn4YJ4yeI/AAAAAAAACuw/2lBNfIzRYsg/s1600/Screenshot_20160112_231820.png)
 
 **Tuxnoob -** In the previous post my discussed about "[https://tuxnoob.com/posts/how-to-linux-command-for-checking/](https://tuxnoob.com/posts/how-to-linux-command-for-checking/)". This time i will explain about checking/detecting rootkits too, with Rkhunter.  
 
@@ -43,7 +43,7 @@ It also performs checks to see if commands have been modified, if the system sta
 
 ### Here This Screenshot
 
-[![](http://4.bp.blogspot.com/-GVGaTf6js1w/VpUsTc90pPI/AAAAAAAACu8/MW68MMBLbmw/s1600/Screenshot_20160112_233609.png)](http://4.bp.blogspot.com/-GVGaTf6js1w/VpUsTc90pPI/AAAAAAAACu8/MW68MMBLbmw/s1600/Screenshot_20160112_233609.png)
+[![](https://4.bp.blogspot.com/-GVGaTf6js1w/VpUsTc90pPI/AAAAAAAACu8/MW68MMBLbmw/s1600/Screenshot_20160112_233609.png)](https://4.bp.blogspot.com/-GVGaTf6js1w/VpUsTc90pPI/AAAAAAAACu8/MW68MMBLbmw/s1600/Screenshot_20160112_233609.png)
 
   
   
@@ -1028,6 +1028,6 @@ And this log result rkhunter :
 > [23:42:42] Info: Using modules pathname of '/lib/modules/4.1.15'  
 > [23:42:42]   Checking kernel module names                    [ OK ]  
 
-There is tutorial use [rkhunter](http://tuxnoob.com/tags/rkhunter) for detecting rootkit or backdoor.
+There is tutorial use [rkhunter](https://tuxnoob.com/tags/rkhunter) for detecting rootkit or backdoor.
 
 **Thanks, may be useful and good luck!!!**

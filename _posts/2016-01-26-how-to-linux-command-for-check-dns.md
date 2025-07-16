@@ -8,7 +8,7 @@ categories: [Linux]
 
 Have in your mind occurred for check DNS Record own domain or domain of other? If you want check information about domain after your changed? this tutorial will give a little tutorial about DNS Record.  
 
-![](http://2.bp.blogspot.com/-5A586UvSjog/VpnOZLXE1QI/AAAAAAAACxM/RPVNaifSyS8/s1600/linux_command.png)
+![](https://2.bp.blogspot.com/-5A586UvSjog/VpnOZLXE1QI/AAAAAAAACxM/RPVNaifSyS8/s1600/linux_command.png)
 
 DNS is an Internet service that translates domain names into IP addresses. Each time you use a domain name, DNS translates the name into the corresponding IP address. In order to do the translation DNS holds records for each domain. The most important are the A, CNAME, and MX records. The A record stores the host IP address. The CNAME is an alias record, which is used to give multiple aliases to a single computer. The MX record is the mail exchange record, which tells mail servers how to route email for this domain.  
 

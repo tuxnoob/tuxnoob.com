@@ -6,11 +6,11 @@ tags: [Slackware, Malheur, Malware Analysis]
 categories: [Linux, Security]
 ---
 
-![malheur](http://4.bp.blogspot.com/-fToVnM7nlWo/Vixt21i-JcI/AAAAAAAACSs/YkMYSP-iSos/s1600/snapshot5.png)
+![malheur](https://4.bp.blogspot.com/-fToVnM7nlWo/Vixt21i-JcI/AAAAAAAACSs/YkMYSP-iSos/s1600/snapshot5.png)
 
   
   
-[**Malheur**](http://arief-jr.blogspot.com/) - Is a Tool For The Automatic Analysis Of Malware Behaviour (program behavior recorded from malicious software in a sandbox environment). It has been designed to support the regular analysis of malicious software and the development of detection and defense measures. Malheur allows for identifying novel classes of malware with similar behavior and assigning unknown malware to discovered classes. _quoted mlsec_  
+[**Malheur**](https://arief-jr.blogspot.com/) - Is a Tool For The Automatic Analysis Of Malware Behaviour (program behavior recorded from malicious software in a sandbox environment). It has been designed to support the regular analysis of malicious software and the development of detection and defense measures. Malheur allows for identifying novel classes of malware with similar behavior and assigning unknown malware to discovered classes. _quoted mlsec_  
   
 I think this is helpful, but if you installing a offline software either Linux, BSD, Mac or Windows. You will know if the software is malware or not.  
   
@@ -47,7 +47,7 @@ After added, next:
 
   
 If you using **Slackware** on your notebook or computer, i have SlackBuild script for this installation.  
-please those who are interested in using my [SlackBuild for Malheur](http://arief-jr.blogspot.com/)  
+please those who are interested in using my [SlackBuild for Malheur](https://arief-jr.blogspot.com/)  
 [https://github.com/4IP/SlackBuild](https://github.com/4IP/SlackBuild)  
   
 Many thanks and may be useful ;)

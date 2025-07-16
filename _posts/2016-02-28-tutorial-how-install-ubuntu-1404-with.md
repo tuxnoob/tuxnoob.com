@@ -25,7 +25,7 @@ So for installation ubuntu 14.04 amd64, you must prepare this tools like:
 
 Okay after available, now executed for installing ubuntu:  
 
-1.  Open your virtualbox and then create like my posts previously <[http://tuxnoob.com/tags/Ubuntu](https://tuxnoob.com/tags/Ubuntu)> 
+1.  Open your virtualbox and then create like my posts previously <[https://tuxnoob.com/tags/Ubuntu](https://tuxnoob.com/tags/Ubuntu)> 
 2.  After create, now click start menu on virtualbox to starting installation
 
 After startint, now you see two option interface ie: Try ubuntu for trying ubuntu as live desktop or install ubuntu for install to your hard drive. Follow my step as like this screenshot:  
@@ -84,7 +84,7 @@ And wait to completed installation system, and take some time.
 
 After installation has completed or finished, click to reboot. After reboot the system, now log in with your username and password that was created earlier.  
 
-So these tutorial about [**"Installing Ubuntu 14.04 amd64 with VirtualBox"**](http://tuxnoob.com/tags/Ubuntu).  
+So these tutorial about [**"Installing Ubuntu 14.04 amd64 with VirtualBox"**](https://tuxnoob.com/tags/Ubuntu).  
 Next, if i have time i will share to install software or application on ubuntu linux.
 
 #### Happy Testing and Good Luck! Thanks anyway, Arief

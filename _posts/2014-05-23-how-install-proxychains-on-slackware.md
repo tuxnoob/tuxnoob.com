@@ -7,7 +7,7 @@ categories: [Tools, Linux]
 ---
 
 first i choose slackware two months ago, i think slackware is simple and stable. because slackware's distro serve two namely version's : current version and stable version.  
-i choose current version and installed on my laptop slackware current x86_64 bit, all right everybody no strings attached how install proxychains tutorial. in my tutorial i have 2 files, if you haven't this files you must download file on [SlackBuild](http://SlackBuilds.org "SlackBuild")  
+i choose current version and installed on my laptop slackware current x86_64 bit, all right everybody no strings attached how install proxychains tutorial. in my tutorial i have 2 files, if you haven't this files you must download file on [SlackBuild](https://SlackBuilds.org "SlackBuild")  
 okay !!! let's see that :D   
 
 * extract file.tar.gz on your directory  
@@ -55,6 +55,6 @@ okay proxychains has installed on your computer, thanks :)
 
 thanks to :  
   
-[willysr.blogspot.com](http://willysr.blogspot.com "Pak Willy")  
+[willysr.blogspot.com](https://willysr.blogspot.com "Pak Willy")  
   
-[**alien**.slackbook.org/blog/](http://alien.slackbook.org/blog/ "Alien")
+[**alien**.slackbook.org/blog/](https://alien.slackbook.org/blog/ "Alien")

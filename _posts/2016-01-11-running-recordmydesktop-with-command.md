@@ -6,7 +6,7 @@ tags: [RecordMyDesktop, Desktop, Slackware, Debian, Ubuntu, CentOS, RedHat, Arch
 categories: [Linux, RecordMyDesktop]
 ---
 
-![](http://3.bp.blogspot.com/-lBpmIlMibpk/VpMqJrh-nWI/AAAAAAAACss/vKCd3hQ4IaM/s1600/Screenshot_20160110_235616.png)
+![](https://3.bp.blogspot.com/-lBpmIlMibpk/VpMqJrh-nWI/AAAAAAAACss/vKCd3hQ4IaM/s1600/Screenshot_20160110_235616.png)
 
 **Arief-jr.blogspot.com -** RecordMyDesktop is screencasting [software](https://tuxnoob.com/tags/recordmydesktop) for X. Can be used for record audio through alsa, OSS the jack audio server. RecordMyDesktop can capture through the jack and thus important for pro-audio video tutorial. RecordMyDesktop output just to use the Ogg Theora video and Vorbis for audio.  
 

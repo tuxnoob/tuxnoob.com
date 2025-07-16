@@ -6,7 +6,7 @@ tags: [Nmap, Slackware, Network Tools ]
 categories: [Linux, Security]
 ---
 
-![](http://1.bp.blogspot.com/-H-zNwb8ZTHk/VpB_Mm0fKQI/AAAAAAAACrA/nOUhDK21AC8/s1600/nmap-logo-256x256.png)
+![](https://1.bp.blogspot.com/-H-zNwb8ZTHk/VpB_Mm0fKQI/AAAAAAAACrA/nOUhDK21AC8/s1600/nmap-logo-256x256.png)
 
 **Tuxnoob -** NMap stand for Network Mapper is a opensource program which serves to or used for network exploration.  
 
@@ -92,7 +92,7 @@ This command for take scanning with display specific service information
 
 >  #nmap -sV [Targets host/IP]
 
-![](http://4.bp.blogspot.com/-L9yAPrS0f4s/VpCNxtCJSkI/AAAAAAAACrQ/a1s4SoKKrrk/s1600/Screenshot_20160109_113159.png)
+![](https://4.bp.blogspot.com/-L9yAPrS0f4s/VpCNxtCJSkI/AAAAAAAACrQ/a1s4SoKKrrk/s1600/Screenshot_20160109_113159.png)
 
 ### Nmap Command - Up Host [-sn]
 
@@ -100,7 +100,7 @@ This command for scanning up host or active host on network
 
 > #nmap -sn [IP Targets]
 
-![](http://2.bp.blogspot.com/-dXL_lguk7Gs/VpCOzfLC8mI/AAAAAAAACrc/HrOvw_dUYvo/s1600/Screenshot_20160109_113641.png)
+![](https://2.bp.blogspot.com/-dXL_lguk7Gs/VpCOzfLC8mI/AAAAAAAACrc/HrOvw_dUYvo/s1600/Screenshot_20160109_113641.png)
 
 ### Nmap Command - ARP (Address Resolution Protocol) [-PR]
 

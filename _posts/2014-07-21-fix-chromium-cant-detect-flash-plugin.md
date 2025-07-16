@@ -12,7 +12,7 @@ was only must installed this chromium-pepperflash-plugin, with the completion th
 if you same installed chromium and can't find flash plugin, you just have to download this plugin for chromium  
 in this plugin:  
 
-[peperflash-plugin](http://taper.alienbase.nl/mirrors/people/alien/slackbuilds/chromium-pepperflash-plugin/)
+[peperflash-plugin](https://taper.alienbase.nl/mirrors/people/alien/slackbuilds/chromium-pepperflash-plugin/)
 
   
   

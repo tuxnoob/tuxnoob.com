@@ -21,4 +21,4 @@ after parameter file `make`, `make install DESTDIR=$PKG`
 copy paste this parameter to your file slackbuild, i marked in bold and rebuild on your slackware machine, may helpful  
 thank's  
   
-source: [http://www.linuxquestions.org/questions/slackware-14/how-to-configure-proxychains-slackware-14-0-a-4175486903/](http://adf.ly/ul1nJ)
+source: [https://www.linuxquestions.org/questions/slackware-14/how-to-configure-proxychains-slackware-14-0-a-4175486903/](https://adf.ly/ul1nJ)

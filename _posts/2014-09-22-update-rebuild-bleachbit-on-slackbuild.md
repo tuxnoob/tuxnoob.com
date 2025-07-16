@@ -7,11 +7,11 @@ categories: [Linux]
 ---
 
 do you know bleacbit? a little explanation for me, bleachbit is software for cache cleaner like ccleaner on Windows and Clean Master on Android.  
-a slackware user become as from, i installed bleachbit on Slackware. but i see bleachbit not update, whereas bleachbit has updated to version 1.4 on [SlackBuild](http://slackbuilds.org) has still 1.2 version. where the maintained? :)  
+a slackware user become as from, i installed bleachbit on Slackware. but i see bleachbit not update, whereas bleachbit has updated to version 1.4 on [SlackBuild](https://slackbuilds.org) has still 1.2 version. where the maintained? :)  
 i did not make this ;)  
 okay if you Slackware User and use bleachbit for cache cleaner, download source code  
 
-* [bleachbit source code](http://sourceforge.net/projects/bleachbit/files/bleachbit/1.4/bleachbit-1.4.tar.bz2/download)  
+* [bleachbit source code](https://sourceforge.net/projects/bleachbit/files/bleachbit/1.4/bleachbit-1.4.tar.bz2/download)  
 
   
 after download, put bleachbit-x.x.tar.bz2 to directory where bleachbit.SlackBuild save  

@@ -22,7 +22,7 @@ okay first step you must change repository on slackware, you must edit on `/etc/
 
 and you'll see some repository on slackware, comment your repository that has been previously selected and select to repository current and then uncomment. e.g:
 
-![snapshot7](http://slackerstsm.files.wordpress.com/2014/05/snapshot7.png)  
+![snapshot7](https://slackerstsm.files.wordpress.com/2014/05/snapshot7.png)  
 
 after selected your favorite repository :D  
 next step you update repository with slackpkg;  
@@ -54,4 +54,4 @@ after clean, you must reboot the system and look you have current versions. than
 
 
 source :  
-[Docs Slackware](http://docs.slackware.com/slackware:slackpkg#full_system_upgrade "docs slackware")
+[Docs Slackware](https://docs.slackware.com/slackware:slackpkg#full_system_upgrade "docs slackware")

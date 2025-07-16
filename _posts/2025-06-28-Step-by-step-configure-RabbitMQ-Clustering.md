@@ -88,10 +88,10 @@ sudo rabbitmq-plugins enable rabbitmq_management
 ```
 
 ### Step 6: Access RabbitMQ Management Interface
-Access the RabbitMQ management console by opening a web browser and navigating to the management interface. usually at http://localhost:15672 (or the appropriate URL for your setup).
+Access the RabbitMQ management console by opening a web browser and navigating to the management interface. usually at https://localhost:15672 (or the appropriate URL for your setup).
 
 ```html
-http://<your_server_ip>:15672/
+https://<your_server_ip>:15672/
 ```
 
 ![rabbitmq-dashboard](/assets/images/rabbitmq-interface.jpeg)

@@ -14,22 +14,22 @@ Yep from there i will share install portsentry on kali linux
 
 ### 1. Install portsentry  
 
-![1](http://slackerstsm.files.wordpress.com/2013/06/1.png)  
+![1](https://slackerstsm.files.wordpress.com/2013/06/1.png)  
 
 
 ### 2. After installed, type command for edit portsentry config. Here i using leafpad for text editor  
 
-![2](http://slackerstsm.files.wordpress.com/2013/06/2.png)  
+![2](https://slackerstsm.files.wordpress.com/2013/06/2.png)  
 
 
 ### 3. Then find this word :  
 
-![3](http://slackerstsm.files.wordpress.com/2013/06/3.png " ")  
+![3](https://slackerstsm.files.wordpress.com/2013/06/3.png " ")  
 
 
 ### 4. And change like this :  
 
-![4](http://slackerstsm.files.wordpress.com/2013/06/4.png)  
+![4](https://slackerstsm.files.wordpress.com/2013/06/4.png)  
 
 
 ### 5. Then ctrl+s (save) and exit (ctrl+q).  

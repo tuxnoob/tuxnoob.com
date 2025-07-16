@@ -6,7 +6,7 @@ tags: [Shell Script, Ping]
 categories: [Linux, Programming]
 ---
 
-![](http://1.bp.blogspot.com/-JrmJyuMKfZo/VpM9sMjasLI/AAAAAAAACtM/0Sm9C3oW6F0/s1600/linux_mono_logo_alt_by_edrp96-d5bqe8i.png)
+![](https://1.bp.blogspot.com/-JrmJyuMKfZo/VpM9sMjasLI/AAAAAAAACtM/0Sm9C3oW6F0/s1600/linux_mono_logo_alt_by_edrp96-d5bqe8i.png)
 
 **Tuxnoob -** Shell script is a set of commands stored in a file on the Linux Operating System. The file extension of Shell Script is .sh but do not include the file extension can still be recognized as a Shell Script  
 

@@ -10,7 +10,7 @@ This time i'll share about install mikrotik router os in virtual machine, becaus
   
 
 1. first install vmware( here i using vmware)  
-2. Then download router os [here](http://adf.ly/tTrx3) with download winbox  
+2. Then download router os [here](https://adf.ly/tTrx3) with download winbox  
 3. After downloaded, open vmware  
 4. Then create new virtual machine, and browse to inserted router OS in vmware  
 5. After that choose to other, and click to start  

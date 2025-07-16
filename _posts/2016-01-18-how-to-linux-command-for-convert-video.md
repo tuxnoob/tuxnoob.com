@@ -6,7 +6,7 @@ tags: [Linux Command, Convert Video, Audio]
 categories: [Linux, Multimedia]
 ---
 
-![](http://1.bp.blogspot.com/-jH3-rQCdcyY/VppRp9UKf9I/AAAAAAAACx0/j6O2zPaqPD0/s1600/Screenshot_20160116_211524.png)
+![](https://1.bp.blogspot.com/-jH3-rQCdcyY/VppRp9UKf9I/AAAAAAAACx0/j6O2zPaqPD0/s1600/Screenshot_20160116_211524.png)
 
 Linux indeed rich with cli (**Command Line Interface**) tools, this time i will share how to manipulation or convert video to audio format with [linux-command](https://tuxnoob.com/tags/linux-command).  
 
@@ -46,7 +46,7 @@ For installing youtube-dl, there are several command installation for any linux 
 >   
 > *Cat function is show application source for download, then copy source with right click and then download with wget  
 >   
-> # wget http://download-link-youtube..... {when download this file, it still in the folder youtube-dl}  
+> # wget https://download-link-youtube..... {when download this file, it still in the folder youtube-dl}  
 >   
 > Afer downloader, now give permission access and run  
 >   
@@ -59,7 +59,7 @@ For installing youtube-dl, there are several command installation for any linux 
 
 After installed youtube-dl, simple to run with this command:  
 
-> $ youtube-dl http://url-youtube-video* ...  
+> $ youtube-dl https://url-youtube-video* ...  
 >   
 > *For More Options  
 > $ youtube-dl -h

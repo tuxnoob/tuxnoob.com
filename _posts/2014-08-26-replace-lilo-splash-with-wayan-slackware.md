@@ -7,7 +7,7 @@ categories: [Linux]
 ---
 
 hello slackers, tonight i share how replace lilo splash with wayan on Slackware. really i newbie Slackware User but i very enthusiastic to use Slackware :)  
-exactly i find this article on [Slackblogs](http://slackblogs.blogspot.com), sorry Mr. Willy i repost this article. :)  
+exactly i find this article on [Slackblogs](https://slackblogs.blogspot.com), sorry Mr. Willy i repost this article. :)  
 okay now i explain:  
 
 
@@ -26,6 +26,6 @@ okay now i explain:
   
 you'll see nice lilo splash after reboot :)
 
-![wayan lilo](http://slackware.osuosl.org/slackware-14.0/source/a/lilo/slack14.0.2012.bmp)
+![wayan lilo](https://slackware.osuosl.org/slackware-14.0/source/a/lilo/slack14.0.2012.bmp)
 
-source: [slackblogs](http://slackblogs.blogspot.com)
+source: [slackblogs](https://slackblogs.blogspot.com)

@@ -277,7 +277,7 @@ you can install xfce, kde or kde plasma, gnome, Mate or if you like lightweight 
 
 > \# **pacman -S sddm-kcm**
 
-So these tutorial about **"[Installing Arch Linux with KDE-plasma and XFCE](http://arief-jr.blogspot.com/search/label/Arch)"**.  
+So these tutorial about **"[Installing Arch Linux with KDE-plasma and XFCE](https://arief-jr.blogspot.com/search/label/Arch)"**.  
 Next, if i have time i will share to install software or application on  arch linux.
 
 #### May useful and Good luck!!! Thanks anyway, Arief

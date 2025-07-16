@@ -11,7 +11,7 @@ today i have free time and i confused to do what? i search game high-definition 
 and i found RTS game and i am interested, this name game 0ad. this game can be installed on slackware? i have million question and wondered whether can enough in specification my laptop, after i visit to website this game can be installed and spec requirements RAM 512 Mb. okay finally i installed game on my Slackware Linux.  
 
 
-if you want install, first step you can find on [SlackBuild](http://SlackBuilds.org "SlackBuild") and search suite your slackware :D  
+if you want install, first step you can find on [SlackBuild](https://SlackBuilds.org "SlackBuild") and search suite your slackware :D  
 before installing 0ad game, 0ad game requires OpenAL and 0ad-data so you download all.  
 after download all, you just build this game that installed on Slackware :)  
 

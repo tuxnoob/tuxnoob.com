@@ -6,7 +6,7 @@ tags: [KRDC, KDE Remote Desktop Connection, Slackware, RDP, Remote Desktop Proto
 categories: [Linux, KDE]
 ---
 
-![](http://3.bp.blogspot.com/-3lVXKNCESiI/VpCVoWJaMFI/AAAAAAAACrs/hcrdjJ5MW_8/s1600/Screenshot_20160109_115930.png)
+![](https://3.bp.blogspot.com/-3lVXKNCESiI/VpCVoWJaMFI/AAAAAAAACrs/hcrdjJ5MW_8/s1600/Screenshot_20160109_115930.png)
 
 **Arief-jr.blogspot.com -** KRDC ([KDE Remote Desktop Client](https://tuxnoob.com/tags/KRDC)), KRDC has included with KDE so without need installing. I'm using KRDC for RDP (Remote Desktop Client), before using KRDC must installed freerdp cause dependencies on KRDC needs freerdp.  
 
@@ -30,7 +30,7 @@ For installing freerdp :
 
 After installed now can running KRDC on desktop. Like example this below image :  
 
-![](http://2.bp.blogspot.com/-3wOmTY4O2XU/VpJphEa9m-I/AAAAAAAACsI/CSpmOL8GsL4/s1600/Screenshot_20160110_212201.png)
+![](https://2.bp.blogspot.com/-3wOmTY4O2XU/VpJphEa9m-I/AAAAAAAACsI/CSpmOL8GsL4/s1600/Screenshot_20160110_212201.png)
 
 This above image will remote windows server 2012, and I'm sure for those who frequent the remote desktop will definitely get used to using this software. Because it could be an alternative software for remote desktop client default on windows.  
 

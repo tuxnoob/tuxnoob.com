@@ -6,7 +6,7 @@ tags: [Shell Script, Linux System Health]
 categories: [Linux, Programming]
 ---
 
-![](http://1.bp.blogspot.com/-JrmJyuMKfZo/VpM9sMjasLI/AAAAAAAACtM/0Sm9C3oW6F0/s1600/linux_mono_logo_alt_by_edrp96-d5bqe8i.png)
+![](https://1.bp.blogspot.com/-JrmJyuMKfZo/VpM9sMjasLI/AAAAAAAACtM/0Sm9C3oW6F0/s1600/linux_mono_logo_alt_by_edrp96-d5bqe8i.png)
 
 This night i will share for checking linux system health with [shell script](https://tuxnoob.com/tags/shell-script), this script collects system information and status like **hostname**, **kernel version**, **CPU**, **Uptime**, **memory/ disk usage**.  
 
@@ -23,7 +23,7 @@ linuxsystemhealth.sh #!/bin/bash EMAIL='arief-jr@gmail.com'function sysstat {ech
 
 ### This Screenshot
 
-![](http://3.bp.blogspot.com/-uzcIXGrEN_A/Vp5R0SENZSI/AAAAAAAAC0A/yQ0xUTTE8Yc/s1600/Screenshot_20160119_220514.png)
+![](https://3.bp.blogspot.com/-uzcIXGrEN_A/Vp5R0SENZSI/AAAAAAAAC0A/yQ0xUTTE8Yc/s1600/Screenshot_20160119_220514.png)
 
 ### More Result
 

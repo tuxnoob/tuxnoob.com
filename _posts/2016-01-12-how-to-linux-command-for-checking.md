@@ -6,7 +6,7 @@ tags: [Rootkit, Slackware, Chkrootkit]
 categories: [Linux]
 ---
 
-![](http://4.bp.blogspot.com/-FPewvod0UrE/VpURdQJCEnI/AAAAAAAACuU/bTnIq1MAnKk/s1600/Screenshot_20160112_212607.png)
+![](https://4.bp.blogspot.com/-FPewvod0UrE/VpURdQJCEnI/AAAAAAAACuU/bTnIq1MAnKk/s1600/Screenshot_20160112_212607.png)
 
 **Tuxnoob -** Chkrootkit (Check Rootkit) is a common Unix-based program intended to help system administrators check their system known rootkit. It is a shell script using common tools UNIX / Linux like strings and grep commands to search core system programs for signatures and for comparing a traversal of the / proc filesystem with the output of ps (process status) command to look for differences. _source wikipedia_  
 
@@ -47,7 +47,7 @@ Chkrootkit use for detecting rootkits or backdoor our linux system.  For get int
 
 Here my screenshot check with chkrootkit :  
 
-![](http://1.bp.blogspot.com/-LybeVicd0G0/VpUkfvwUYQI/AAAAAAAACuk/XUiXIhlNdyk/s1600/Screenshot_20160112_230248.png)
+![](https://1.bp.blogspot.com/-LybeVicd0G0/VpUkfvwUYQI/AAAAAAAACuk/XUiXIhlNdyk/s1600/Screenshot_20160112_230248.png)
 
 There is tutorial use [chkrootkit](https://tuxnoob.com/tags/chkrootkit) for detecting rootkit or backdoor, utilized wisely. LOL 
 

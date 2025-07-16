@@ -6,7 +6,7 @@ tags: [Blog, Blosgpsot, tips&trick blog]
 categories: [Blogspot]
 ---
 
-![](http://2.bp.blogspot.com/-4vHre_YHtLE/VpNI0--GUCI/AAAAAAAACtY/dZLNovs9dcg/s1600/Screenshot_20160111_131417.png)
+![](https://2.bp.blogspot.com/-4vHre_YHtLE/VpNI0--GUCI/AAAAAAAACtY/dZLNovs9dcg/s1600/Screenshot_20160111_131417.png)
 | _illustration_ |
 
 **Tuxnoob -** For create related article there are many kinds, like [related article](https://tuxnoob.com/tags/blog) with image, related article with text only, or both.  

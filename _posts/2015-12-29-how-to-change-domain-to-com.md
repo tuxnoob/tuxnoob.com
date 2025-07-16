@@ -6,7 +6,7 @@ tags: [Blog, Blogspot, Domain]
 categories: [Blogspot]
 ---
 
-![](http://3.bp.blogspot.com/-b1UgnOYhhrE/VoFyWYvafMI/AAAAAAAACcM/ey2Nt8Jgyzo/s1600/stop-blogger-country-url-redirection.jpg)
+![](https://3.bp.blogspot.com/-b1UgnOYhhrE/VoFyWYvafMI/AAAAAAAACcM/ey2Nt8Jgyzo/s1600/stop-blogger-country-url-redirection.jpg)
 
 ### How To Stop Blogger Country URL Redirection ???
 
@@ -20,7 +20,7 @@ Changes occur on 3 Sep 2015 where blogspot.com domain change or direct to blogsp
 
 Google is already known to be very like the base location for each product. And upholds the rules that exist in each country. That's why Google enforces it. With this change, one thing for sure, according to Google, is every blogger account we will adjust to the location we are. So if we are in India or in Indonesia, our blogger account will be co.in or co.id whereas if we access it in America, will be .com  
 
-![](http://3.bp.blogspot.com/-smmAcdV7UzY/VoF3QwOa6SI/AAAAAAAACcc/CPlynGvWX7I/s1600/ubah-co.id-ke-com.png)
+![](https://3.bp.blogspot.com/-smmAcdV7UzY/VoF3QwOa6SI/AAAAAAAACcc/CPlynGvWX7I/s1600/ubah-co.id-ke-com.png)
 
 ### For Solve This Problem!!!
 

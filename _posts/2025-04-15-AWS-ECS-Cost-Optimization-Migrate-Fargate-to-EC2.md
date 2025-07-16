@@ -314,7 +314,7 @@ Example a few of task definition:
             "healthCheck": {
                 "command": [
                     "CMD-SHELL",
-                    "curl -f http://localhost:3000/api/v1/health/ready -H 'action_by: 0' || exit 1"
+                    "curl -f https://localhost:3000/api/v1/health/ready -H 'action_by: 0' || exit 1"
                 ],
                 "interval": 30,
                 "timeout": 5,

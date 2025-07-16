@@ -6,7 +6,7 @@ tags: [Wordpress, OpenSource CMS Web, Wordpress Desktop, Slackware]
 categories: [Linux, Wordpress]
 ---
 
-![](http://1.bp.blogspot.com/-YpU5ZKmE7TM/VqJXkic9v-I/AAAAAAAAC38/A60xEJKEqMg/s1600/desktop-wordpress.png)
+![](https://1.bp.blogspot.com/-YpU5ZKmE7TM/VqJXkic9v-I/AAAAAAAAC38/A60xEJKEqMg/s1600/desktop-wordpress.png)
 | _Image Source From Wordpress.org_ |
 
 Wordpress Desktop applications have recently been switching to Open Source. You can get the source code of their Github repository. WordPress desktop application available for Windows, Mac OS X and Linux.  

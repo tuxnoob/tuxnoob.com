@@ -6,7 +6,7 @@ tags: [C Programming, Generate Random Number]
 categories: [Programming]
 ---
 
-[**C Language Program**](http://arief-jr.blogspot.com) - This is a C program to display the numbers at random, The program follows below:  
+[**C Language Program**](https://arief-jr.blogspot.com) - This is a C program to display the numbers at random, The program follows below:  
 
 > **OR**  
 > If it necessary to generate a number between 0 and (num-1) then this program meets the ideal solution  
@@ -22,4 +22,4 @@ categories: [Programming]
 > }
 
   
-The above [**program**](http://arief-jr.blogspot.com) is a simple program to generate random numbers. This logic can be used to build the program or programs to choose Lotto Lucky numbers and so on.
+The above [**program**](https://arief-jr.blogspot.com) is a simple program to generate random numbers. This logic can be used to build the program or programs to choose Lotto Lucky numbers and so on.

@@ -6,7 +6,7 @@ tags: [Shell Script, Disk Space ]
 categories: [Linux, Programming]
 ---
 
-![](http://1.bp.blogspot.com/-JrmJyuMKfZo/VpM9sMjasLI/AAAAAAAACtM/0Sm9C3oW6F0/s1600/linux_mono_logo_alt_by_edrp96-d5bqe8i.png)
+![](https://1.bp.blogspot.com/-JrmJyuMKfZo/VpM9sMjasLI/AAAAAAAACtM/0Sm9C3oW6F0/s1600/linux_mono_logo_alt_by_edrp96-d5bqe8i.png)
 
 **Tuxnoob -** Earlier i discused about [shell script for check ping to remote host and port opened](https://tuxnoob.com/tags/shell-script), this time i will discused about shell script too. But this session explain about checking disk space of most large data storage.
 

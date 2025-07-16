@@ -12,7 +12,7 @@ categories: [Linux]
 
 #### What Is PS Command???
 
-Ps is acronym **Process Status**, used to provide information about the currently running processes, including their _process identification numbers_ (PIDs). (_source: [http://www.linfo.org/ps.html](http://www.linfo.org/ps.html)_)  
+Ps is acronym **Process Status**, used to provide information about the currently running processes, including their _process identification numbers_ (PIDs). (_source: [https://www.linfo.org/ps.html](https://www.linfo.org/ps.html)_)  
 
 From its manual page, PS gives a snapshots of the current process. It will “capture” the system condition at a single time. If you want to have a repetitive updates in a real time, we can use top command.  
 

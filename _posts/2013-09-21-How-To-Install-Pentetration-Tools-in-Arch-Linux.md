@@ -22,27 +22,27 @@ Here I use the repository blackarch, because repo this one provides a variety of
 
 * First insert blackarch repository to pacman.conf : 
 
-![snapshot18](http://slackerstsm.files.wordpress.com/2013/09/snapshot18.png)
+![snapshot18](https://slackerstsm.files.wordpress.com/2013/09/snapshot18.png)
 
 Then add this line to bottom line :  
 
-![snapshot19](http://slackerstsm.files.wordpress.com/2013/09/snapshot19.png)
+![snapshot19](https://slackerstsm.files.wordpress.com/2013/09/snapshot19.png)
 
 _Note: uncomment line which take arrow red color and insert blackarch repository which take arrow blue color._
 
 * Save and exit, then type command to update arch linux :  
 
-![snapshot20](http://slackerstsm.files.wordpress.com/2013/09/snapshot20.png) 
+![snapshot20](https://slackerstsm.files.wordpress.com/2013/09/snapshot20.png) 
 
 The above image command for refreshed repo and upgrade system.  
 
 * Then install with below this command: 
 
-![snapshot21](http://slackerstsm.files.wordpress.com/2013/09/snapshot21.png)
+![snapshot21](https://slackerstsm.files.wordpress.com/2013/09/snapshot21.png)
 
 * And show this message for selecting/custom for installation tools or hit enter for default (all) like this below image :
 
-![snapshot22](http://slackerstsm.files.wordpress.com/2013/09/snapshot22.png)
+![snapshot22](https://slackerstsm.files.wordpress.com/2013/09/snapshot22.png)
 
 And wait until completed, this my tutorial install pentest tools on arch linux. May be useful and good luck.  
 

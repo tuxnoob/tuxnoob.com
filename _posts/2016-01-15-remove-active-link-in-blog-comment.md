@@ -6,7 +6,7 @@ tags: [Blog, Blogspot, Active Link Comment]
 categories: [Blogspot]
 ---
 
-![](http://2.bp.blogspot.com/-qRCwATUPtL4/Vpfa706as9I/AAAAAAAACv4/BhYGgBbaO78/s1600/bloggericon.png)
+![](https://2.bp.blogspot.com/-qRCwATUPtL4/Vpfa706as9I/AAAAAAAACv4/BhYGgBbaO78/s1600/bloggericon.png)
 
 **Tuxnoob -** This time i will share how to remove active link on blog comment. If uncomfortable for spam comments on blog comment, you can use this trick.  
 
@@ -31,7 +31,7 @@ _explanation : for up script are colored light blue, if in blog has available an
 
 * Find this code \]\]>&lt;/b:skin&gt; and put this script under code \]\]>&lt;/b:skin&gt; {This also code can put up &lt;/head&gt; or &lt;body&gt;;
 
-> &lt;script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js' type='text/javascript'&gt;&lt;/script&gt; &lt;script type='text/javascript'&gt; $(function() { $('#comments p').find('a').remove(); }); &lt;/script&gt;
+> &lt;script src='https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js' type='text/javascript'&gt;&lt;/script&gt; &lt;script type='text/javascript'&gt; $(function() { $('#comments p').find('a').remove(); }); &lt;/script&gt;
 
 * Save template
 

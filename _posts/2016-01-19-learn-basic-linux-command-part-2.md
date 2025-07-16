@@ -6,7 +6,7 @@ tags: [Bash Shell, Basic Linux Command, Slackware]
 categories: [Linux]
 ---
 
-![](http://2.bp.blogspot.com/-5A586UvSjog/VpnOZLXE1QI/AAAAAAAACxI/2TWf7z72Xr8/s1600/linux_command.png)
+![](https://2.bp.blogspot.com/-5A586UvSjog/VpnOZLXE1QI/AAAAAAAACxI/2TWf7z72Xr8/s1600/linux_command.png)
 
 **Tuxnoob -** In previously post have been discussed about [Learn Basic Linux-command | PART 1](https://tuxnoob.com/tags/bash-shell), now i will explain sequel. 
 

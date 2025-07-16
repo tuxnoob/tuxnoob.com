@@ -17,7 +17,7 @@ see follow this step
 2. type DISKPART on your CMD  
 3. after type, see your volume/disk your flashdisk e.g my volume there on 4 like this:  
 
-![](http://1.bp.blogspot.com/-2OOYlLajIMo/VGg8FanDx3I/AAAAAAAAB5Q/Dxh7cogj1IE/s1600/Untitled4.png)
+![](https://1.bp.blogspot.com/-2OOYlLajIMo/VGg8FanDx3I/AAAAAAAAB5Q/Dxh7cogj1IE/s1600/Untitled4.png)
 
   
 4. and select volume  
@@ -27,7 +27,7 @@ see follow this step
 8. and then execute "active" on CMD, so active this flashdisk and finish  
 like this:  
 
-![](http://3.bp.blogspot.com/-5icp5LBA4YQ/VGg-DKK1n1I/AAAAAAAAB5c/6nEzChTrmMI/s1600/Untitled2.png)
+![](https://3.bp.blogspot.com/-5icp5LBA4YQ/VGg-DKK1n1I/AAAAAAAAB5c/6nEzChTrmMI/s1600/Untitled2.png)
 
   
 thanks, may helpfull ;)

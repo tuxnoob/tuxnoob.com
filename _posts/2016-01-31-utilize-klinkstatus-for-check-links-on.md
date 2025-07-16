@@ -6,7 +6,7 @@ tags: [KlinkStatus, KDE, Plasma 5]
 categories: [Linux, KDE]
 ---
 
-![](http://2.bp.blogspot.com/-LPprfLdfiQY/Vq2RZzFSNzI/AAAAAAAAC7U/vWBHtqCDrFE/s1600/Screenshot_20160131_113656.png)
+![](https://2.bp.blogspot.com/-LPprfLdfiQY/Vq2RZzFSNzI/AAAAAAAAC7U/vWBHtqCDrFE/s1600/Screenshot_20160131_113656.png)
 
 KLinkStatus is a link checker default of KDE, you can see or use klinkstatus via menu >> development >> web development >> klinkstatus.  
 
@@ -23,7 +23,7 @@ KLinkStatus is a link checker default of KDE, you can see or use klinkstatus via
 
 For starting to check link with klinkstatus, you just input url for default check. But if check more want, you can setting to tool menu on klinkstatus with script check, schedule link check. For example i trying to check my url blogspot with KLinkStatus and given:
 
-![](http://4.bp.blogspot.com/-MQ-MwdHPcP8/Vq3XAlbLhdI/AAAAAAAAC7k/SfTUzKGDuMU/s1600/Screenshot_20160131_163715.png)
+![](https://4.bp.blogspot.com/-MQ-MwdHPcP8/Vq3XAlbLhdI/AAAAAAAAC7k/SfTUzKGDuMU/s1600/Screenshot_20160131_163715.png)
 
 So these review about Utilize KLinkStatus On KDE Plasma 5. Thanks
 

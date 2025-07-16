@@ -6,7 +6,7 @@ tags: [Shell Script, Delete Duplicate Files]
 categories: [Linux, Programming]
 ---
 
-![](http://1.bp.blogspot.com/-JrmJyuMKfZo/VpM9sMjasLI/AAAAAAAACtM/0Sm9C3oW6F0/s1600/linux_mono_logo_alt_by_edrp96-d5bqe8i.png)
+![](https://1.bp.blogspot.com/-JrmJyuMKfZo/VpM9sMjasLI/AAAAAAAACtM/0Sm9C3oW6F0/s1600/linux_mono_logo_alt_by_edrp96-d5bqe8i.png)
 
 Sometimes we don't know about files, when downloading always forget to file organize into directory. That matter when downloading same files, where this file has downloaded.
 I have shell script for delete duplicate files so if you run with linux, you can try this shell script. Shell Script is looking for duplicated names in files withing sub-directories, and after check md5sum.  

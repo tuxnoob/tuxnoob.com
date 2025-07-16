@@ -6,7 +6,7 @@ tags: [Volatility, Failed Import, Fixed Volatility]
 categories: [Linux, Forensic Tools]
 ---
 
-![memory forensic, volatility, linux, linux-command, command line interface](http://2.bp.blogspot.com/-lw5B72dKDuU/Vq9atlP6k1I/AAAAAAAAC8s/PrJ9qgYjwgc/s1600/Screenshot_20160201_200523.png)
+![memory forensic, volatility, linux, linux-command, command line interface](https://2.bp.blogspot.com/-lw5B72dKDuU/Vq9atlP6k1I/AAAAAAAAC8s/PrJ9qgYjwgc/s1600/Screenshot_20160201_200523.png)
 
 Recently i has installed a memory forensic tools on my Slackware, actually i really need this memory forensic for my little experiment be called learning on home.  
 
@@ -162,7 +162,7 @@ After i trace one by one, evidently pycrypto and distorm3 installed not yet. So 
 
 After installed pycrypto and distorm3, and i see this problem has solved. Like below screenshot:  
 
-![](http://4.bp.blogspot.com/-knKR-7Mkaz0/Vq9e66dOKWI/AAAAAAAAC84/32lmGrzq-1M/s1600/Screenshot_20160201_201259.png)
+![](https://4.bp.blogspot.com/-knKR-7Mkaz0/Vq9e66dOKWI/AAAAAAAAC84/32lmGrzq-1M/s1600/Screenshot_20160201_201259.png)
 
 If you want installing pip, you can find or each repository. In there i'm using Slackware as OS, you can find volatility from slackbuilds.org or using third party with sbopkg.  
 
@@ -172,7 +172,7 @@ For Ubuntu/Debian or RedHat/Fedora, simply just type command:
 > Or,  
 > $ sudo yum install pip \[RedHat/Fedora\]
 
-So these tutorial about [**Fixed Problem Failed To Import Volatility.plugins.***](http://arief-jr.blogspot.com/search/label/Linux-command).  
+So these tutorial about [**Fixed Problem Failed To Import Volatility.plugins.***](https://arief-jr.blogspot.com/search/label/Linux-command).  
 Next, if i have time i will share to using volatility for analysis memory forensics.
 
 #### Happy Using and Good Luck! Arief

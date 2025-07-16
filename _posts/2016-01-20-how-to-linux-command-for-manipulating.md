@@ -6,7 +6,7 @@ tags: [PDF Toolkit, Linux Command, Manipulation PDF Files]
 categories: [Linux, PDF]
 ---
 
-![](http://2.bp.blogspot.com/-5A586UvSjog/VpnOZLXE1QI/AAAAAAAACxM/RPVNaifSyS8/s1600/linux_command.png)
+![](https://2.bp.blogspot.com/-5A586UvSjog/VpnOZLXE1QI/AAAAAAAACxM/RPVNaifSyS8/s1600/linux_command.png)
 
 This time i will share **how to manipulating pdf files** with [linux-command](https://tuxnoob.com/tags/pdf). Any various software for editing PDF files like nitropdf(windows) but on linux i think is simple not much reduced graphic display :D  
 

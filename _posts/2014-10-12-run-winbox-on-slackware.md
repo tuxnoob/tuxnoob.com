@@ -12,22 +12,22 @@ if you Slackware User you'll find confused for running winbox, if you work on ne
 first step you must install packet depend on Slackware Machine  
 Download this packet so that build and install  
 
-* [fontforge](http://slackbuilds.org/repository/14.1/graphics/fontforge/)  
-* [webcorefonts](http://slackbuilds.org/repository/14.1/system/webcore-fonts/)  
-* [wine](http://slackbuilds.org/repository/14.1/system/wine/)  
-* [cabextract](http://slackbuilds.org/repository/14.1/system/cabextract/)  
-* and [winetricks](http://slackbuilds.org/repository/14.1/system/winetricks/)
+* [fontforge](https://slackbuilds.org/repository/14.1/graphics/fontforge/)  
+* [webcorefonts](https://slackbuilds.org/repository/14.1/system/webcore-fonts/)  
+* [wine](https://slackbuilds.org/repository/14.1/system/wine/)  
+* [cabextract](https://slackbuilds.org/repository/14.1/system/cabextract/)  
+* and [winetricks](https://slackbuilds.org/repository/14.1/system/winetricks/)
 
   
 and then Download your winbox on this:  
 
-* [MikroTik Winbox](http://www.mikrotik.com/download)
+* [MikroTik Winbox](https://www.mikrotik.com/download)
 
   
 after Donwload allow automatic updates and install wine mono, wine gecko  
 let's see my screenshot:  
 
-![Winbox](http://4.bp.blogspot.com/-muq0V1LATbY/VDnoh1L2AlI/AAAAAAAAB3w/XchbrpT0dFY/s1600/snapshot21.png)
+![Winbox](https://4.bp.blogspot.com/-muq0V1LATbY/VDnoh1L2AlI/AAAAAAAAB3w/XchbrpT0dFY/s1600/snapshot21.png)
 
   
 I use winbox version 2.2.18, thank's  

@@ -6,7 +6,7 @@ tags: [KDE, Lightweight RAM, Desktop Environment]
 categories: [Linux, KDE]
 ---
 
-![](http://4.bp.blogspot.com/-3lVXKNCESiI/VpCVoWJaMFI/AAAAAAAACrw/ZJfv_GM-nQA/s1600/Screenshot_20160109_115930.png)
+![](https://4.bp.blogspot.com/-3lVXKNCESiI/VpCVoWJaMFI/AAAAAAAACrw/ZJfv_GM-nQA/s1600/Screenshot_20160109_115930.png)
 | _KDE Plasma 5 Desktop_ |
 
 This time, i will share [how to resource lighweight ram on KDE](https://tuxnoob.com/tags/KDE). Many user won't using KDE as default desktop, because KDE is very much consumption memory. But i think KDE also not like that, because can still be overcome.  
@@ -31,7 +31,7 @@ Okay, for first step:
 
 Second step, go to system setting > select Desktop behaviour > choose desktop effects  
 
-![](http://3.bp.blogspot.com/-OiXbzt_G38I/Vp3MWNWiPlI/AAAAAAAACzI/S6JRwFnibEo/s1600/Screenshot_20160119_123359.png)
+![](https://3.bp.blogspot.com/-OiXbzt_G38I/Vp3MWNWiPlI/AAAAAAAACzI/S6JRwFnibEo/s1600/Screenshot_20160119_123359.png)
 
 
 * Turn off effect which most consumption of RAM, like translucency, blur with uncheck.

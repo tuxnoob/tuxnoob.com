@@ -6,7 +6,7 @@ tags: [Kali Linux, Debian, Compiz]
 categories: [Linux]
 ---
 
-![compiz-kali](http://4.bp.blogspot.com/-lV9ZTa3Obts/VhOYK37W0iI/AAAAAAAACM4/6ez8UiI0buc/s1600/kali-linux-2-0-released.png)
+![compiz-kali](https://4.bp.blogspot.com/-lV9ZTa3Obts/VhOYK37W0iI/AAAAAAAACM4/6ez8UiI0buc/s1600/kali-linux-2-0-released.png)
 
 
 exactly, this article has too long i keep :)  
@@ -26,13 +26,13 @@ let's see:
   - `python-compizconfig_0.8.4-2_i386.deb`
 
 ```
-# wget http://ftp.us.debian.org/debian/pool/main/c/compizconfig-python/python-compizconfig\_0.8.4-2\_i386.deb  
+# wget https://ftp.us.debian.org/debian/pool/main/c/compizconfig-python/python-compizconfig\_0.8.4-2\_i386.deb  
 ```
 
   - `compiz-gtk_0.8.4-4_i386.deb`
 
 ```
-# wget http://ftp.us.debian.org/debian/pool/main/c/compiz/compiz-gtk\_0.8.4-4\_i386.deb
+# wget https://ftp.us.debian.org/debian/pool/main/c/compiz/compiz-gtk\_0.8.4-4\_i386.deb
 ```
 
   - `libgnome-desktop-2-17_2.30.2-2_i386.deb`
@@ -161,7 +161,7 @@ pyversions=2.5,2.6,2.7
 # gdebi /root/libgnome-window-settings1_2.30.0-0ubuntu4_i386.deb
 ```
 
-* Edit your sources.list adding deb http://ftp.us.debian.org/debian squeeze main
+* Edit your sources.list adding deb https://ftp.us.debian.org/debian squeeze main
 
 ```
 # leafpad /etc/apt/sources.list  
@@ -174,27 +174,27 @@ pyversions=2.5,2.6,2.7
 ```
 # 
 
-deb http://http.kali.org/ /kali main contrib non-free
+deb https://http.kali.org/ /kali main contrib non-free
 
-deb http://http.kali.org/ /wheezy main contrib non-free
+deb https://http.kali.org/ /wheezy main contrib non-free
 
-deb http://http.kali.org/kali kali-dev main contrib non-free
+deb https://http.kali.org/kali kali-dev main contrib non-free
 
-deb http://http.kali.org/kali kali-dev main/debian-installer
+deb https://http.kali.org/kali kali-dev main/debian-installer
 
-deb-src http://http.kali.org/kali kali-dev main contrib non-free
+deb-src https://http.kali.org/kali kali-dev main contrib non-free
 
-deb http://http.kali.org/kali kali main contrib non-free
+deb https://http.kali.org/kali kali main contrib non-free
 
-deb http://http.kali.org/kali kali main/debian-installer
+deb https://http.kali.org/kali kali main/debian-installer
 
-deb-src http://http.kali.org/kali kali main contrib non-free
+deb-src https://http.kali.org/kali kali main contrib non-free
 
-deb http://security.kali.org/kali-security kali/updates main contrib non-free
+deb https://security.kali.org/kali-security kali/updates main contrib non-free
 
-deb-src http://security.kali.org/kali-security kali/updates main contrib non-free
+deb-src https://security.kali.org/kali-security kali/updates main contrib non-free
 
-deb http://ftp.us.debian.org/debian squeeze main
+deb https://ftp.us.debian.org/debian squeeze main
 ```
 
 * Save and exit
@@ -233,7 +233,7 @@ deb http://ftp.us.debian.org/debian squeeze main
 
 * Reboot
 
-* After restarting, Edit your sources.list remove `deb http://ftp.it.debian.org/debian squeeze main`
+* After restarting, Edit your sources.list remove `deb https://ftp.it.debian.org/debian squeeze main`
 
 ```
 # leafpad /etc/apt/sources.list
@@ -268,4 +268,4 @@ and reinstall `python-compizconfig_0.8.4-2_i386.deb`
 Have fun, Arief I hope work, CMIIW ;) 
 
 
-**source:[kali/debian](http://forums.kali.org/)**
+**source:[kali/debian](https://forums.kali.org/)**

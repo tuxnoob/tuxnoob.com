@@ -10,7 +10,7 @@ categories: [Linux]
 
 Netstat (Network Statistic) is command line utility which used for monitoring both incoming and outgoing network connections, routing tables, interface statistic etc. Netstat can be used to print all the connected TCP and UDP socket connections and listening socket too while waiting for incoming connections.  
 
-Netstat available on MAC, Linux and Windows etc. But i using Slackware Linux for day activies, like my post previously about "[Monitoring tools on Linux for Security](http://arief-jr.blogspot.co.id/2015/12/linux-network-tools-for-monitoring-and.html)". Yeah this tools can be used for system administrator for monitoring traffice network performance and troubleshoot related-network problems.  
+Netstat available on MAC, Linux and Windows etc. But i using Slackware Linux for day activies, like my post previously about "[Monitoring tools on Linux for Security](https://arief-jr.blogspot.co.id/2015/12/linux-network-tools-for-monitoring-and.html)". Yeah this tools can be used for system administrator for monitoring traffice network performance and troubleshoot related-network problems.  
 
 This tutorial for using linux netstat command line, so familiarize command line interface. LOL  
 
