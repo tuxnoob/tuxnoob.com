@@ -211,17 +211,50 @@ module "autoscaling_prod" {
   min_size            = each.value.min_size
   max_size            = each.value.max_size
   desired_capacity    = each.value.desired_capacity
-  health_check_grace_period = 180
-  enabled_metrics = [
-    "GroupMinSize",
-    "GroupMaxSize",
-    "GroupDesiredCapacity",
-    "GroupInServiceInstances",
-    "GroupPendingInstances",
-    "GroupStandbyInstances",
-    "GroupTerminatingInstances",
-    "GroupTotalInstances"
+  health_check_grace_period = 0
+  create_scaling_policy = false
+
+  termination_policies = [
+    "Default"
   ]
+  
+  autoscaling_group_tags = {
+    AmazonECSManaged = true
+  }
+
+  capacity_rebalance = true
+
+  protect_from_scale_in = false
+
+  instance_refresh = {
+    strategy = "Rolling"
+    preferences = {
+      checkpoint_delay       = 300
+      checkpoint_percentages = [35, 70, 100]
+      instance_warmup        = 300
+      min_healthy_percentage = 50
+      max_healthy_percentage = 100
+      skip_matching          = true
+    }
+    triggers = ["tag"]
+  }
+
+  initial_lifecycle_hooks = [
+    {
+      name                 = "ecs-managed-draining-termination-hook"
+      default_result       = "CONTINUE"
+      heartbeat_timeout    = 3600
+      lifecycle_transition = "autoscaling:EC2_INSTANCE_TERMINATING"
+      notification_metadata = jsonencode({ "event" = "instance_terminating", "cluster" = local.name, "asg" = "${local.name}-${each.key}" })
+    }
+  ]
+
+  use_mixed_instances_policy = each.value.use_mixed_instances_policy
+  mixed_instances_policy     = each.value.mixed_instances_policy
+
+  schedules = each.value.schedules
+
+  tags = local.tags_development
 }
 ```
 
@@ -317,6 +350,6 @@ And choose button update, and you can see the service is running on EC2 instance
 
 - Don't forget to remove fargate as capacity provider or you can add in terraform line with value `default_capacity_provider_use_fargate = false`.
 - In part `kmsKeyId = "arn:aws:kms:{fill your aws region}:xxxxxxxx:key/xxxxxxx-4bb9-xxxxx-xxxxx-xxxxxx"` and `iam_instance_profile_arn = "arn:aws:iam::xxxxxxx:instance-profile/XXXXX` change your existing kms key and iam instance profile. If you don't have iam instance profile, set to true in value `create_iam_instance_profile = false` in terraform code that can create new iam instance profile.
-- After implementation use AutoScaling group in AWS ECS, i still have one problem when the task deployed into AWS EC2 under AutoSCaling group, the EC2 is not full filled with the maximum task instead launch new EC2 instance. For example the instance type is m5.xlarge, the maximum task is 20 after enabled vpc trunking, but the task is only 10 then launch new EC2 instance. I still find the solution for this problem.
+
 
 Thanks for reading!
