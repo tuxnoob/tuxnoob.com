@@ -53,6 +53,6 @@ Put this script on &lt;body&gt;  
 > &lt;script type='text/javascript'&gt; //&lt;!\[CDATA\[ function blockLinks(parentID, children) { var parent = document.getElementById(parentID), content = parent.getElementsByTagName(children); for (var i = 0; i < content.length; i++) { if (content\[i\].innerHTML.indexOf('</a&gt;') !== -1) { content\[i\].innerHTML = "&lt;mark&gt;No live link!!!&lt;/mark&gt; Do Not Spam in Here!"; content\[i\].className = "spammer-detected"; } } } blockLinks('comment-holder', 'p'); //\]\]> &lt;/script&gt;
 
 
-There is tutorial for [Remove Active Link In Blog Comment](https:/tuxnoob.com/tags/Blog).
+There is tutorial for [Remove Active Link In Blog Comment](https://tuxnoob.com/categories/Blog).
 
 **Thanks, may be useful and happy blogging !!!**
