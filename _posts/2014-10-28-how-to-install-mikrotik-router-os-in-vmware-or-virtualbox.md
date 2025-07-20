@@ -21,7 +21,7 @@ This time i'll share about install mikrotik router os in virtual machine, becaus
   
 Here this video, if my explanation was less:  
 
-![Youtube]({https://youtu.be/HG94geu-Emg})
+![Youtube](https://youtu.be/HG94geu-Emg)
   
   
 _Note:_  

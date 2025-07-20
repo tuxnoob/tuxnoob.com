@@ -12,5 +12,5 @@ okay now i give video, for install kali linux
 if describe has too long man ;)  
 let's see it:  
 
-![Kali Linux]({https://www.youtube.com/embed/cYuTyRckW_o})
+![Kali Linux](https://www.youtube.com/embed/cYuTyRckW_o)
 may usefull ;)
