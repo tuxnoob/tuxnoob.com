@@ -2,8 +2,8 @@
 title: Change Credit Link "Powered By Blogger" In Blogspot
 date: '2015-12-28T22:10:00.002+07:00'
 author: Arief JR
-tags: [Blogger, Blogspot, Credit Link]
-categories: [Blogspot]
+tags: [Blogspot, Credit Link]
+categories: [Blog]
 ---
 
 ![](https://4.bp.blogspot.com/-keot4CIawDo/VoFCHp5l9PI/AAAAAAAACbs/h5F1WpotLUk/s1600/Screenshot_20151228_210640.png)

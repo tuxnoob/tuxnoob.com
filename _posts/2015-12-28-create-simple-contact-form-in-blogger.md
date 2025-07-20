@@ -3,8 +3,8 @@ layout: post
 title: Create Simple Contact Form In Blogger
 date: '2015-12-28T15:38:00.000+07:00'
 author: Akagami Shanks
-tags: [Blog, Blogspot, Contact]
-categories: [Blogspot]
+tags: [Blogspot, Contact]
+categories: [Blog]
 ---
 
 ![](https://3.bp.blogspot.com/-ii4Gr87g1k8/VnIcj5VfK9I/AAAAAAAACZ0/BrFBticW-Cg/s1600/snapshot33.png)

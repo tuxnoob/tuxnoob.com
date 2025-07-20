@@ -2,8 +2,8 @@
 title: Remove Active Link In Blog Comment
 date: '2016-01-15T01:10:00.000+07:00'
 author: Akagami Shanks
-tags: [Blog, Blogspot, Active Link Comment]
-categories: [Blogspot]
+tags: [Blogspot, Active Link Comment]
+categories: [Blog]
 ---
 
 ![](https://2.bp.blogspot.com/-qRCwATUPtL4/Vpfa706as9I/AAAAAAAACv4/BhYGgBbaO78/s1600/bloggericon.png)

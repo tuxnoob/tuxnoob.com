@@ -2,8 +2,8 @@
 title: How To Change Domain To .COM
 date: '2015-12-29T01:00:00.000+07:00'
 author: Arief JR
-tags: [Blog, Blogspot, Domain]
-categories: [Blogspot]
+tags: [Blogspot, Domain]
+categories: [Blog]
 ---
 
 ![](https://3.bp.blogspot.com/-b1UgnOYhhrE/VoFyWYvafMI/AAAAAAAACcM/ey2Nt8Jgyzo/s1600/stop-blogger-country-url-redirection.jpg)

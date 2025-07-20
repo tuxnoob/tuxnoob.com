@@ -2,8 +2,8 @@
 title: Create Related Article Below The Blog Post (Blogspot)
 date: '2016-01-11T16:49:00.002+07:00'
 author: Arief JR
-tags: [Blog, Blosgpsot, tips&trick blog]
-categories: [Blogspot]
+tags: [Blogspot, tips&trick blog]
+categories: [Blog]
 ---
 
 ![](https://2.bp.blogspot.com/-4vHre_YHtLE/VpNI0--GUCI/AAAAAAAACtY/dZLNovs9dcg/s1600/Screenshot_20160111_131417.png)
