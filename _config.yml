@@ -229,3 +229,7 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "https://www.tuxnoob.com"
