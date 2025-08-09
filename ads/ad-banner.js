@@ -1,1 +1,0 @@
-// bait file for adblock detection

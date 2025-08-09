@@ -1,90 +1,106 @@
-<style>
-#adblock-overlay {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  backdrop-filter: blur(10px);
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 9999;
-}
-#adblock-overlay .content {
-  color: white;
-  text-align: center;
-  font-size: 24px;
-  position: relative;
-}
-#adblock-overlay::before {
-  content: 'CONTENT BLOCKED';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-30deg);
-  font-size: 80px;
-  color: rgba(255, 255, 255, 0.05);
-  white-space: nowrap;
-  pointer-events: none;
-}
-</style>
-
-<div id="adblock-overlay">
-  <div class="content">
-    <h1>AdBlock Detected</h1>
-    <p>Please disable your ad blocker to view this content and the ads will not bother you.</p>
+<!-- _includes/adblock-check.html -->
+<!-- Put this right after <body> in your default layout -->
+<div id="ab-overlay" aria-hidden="false" role="dialog" aria-label="Adblock check">
+  <div id="ab-modal">
+    <h2 id="ab-title">Checking for ad blocker…</h2>
+    <p id="ab-message">We are checking whether an ad blocker is active. If you have whitelisted this site, click <strong>Re-check</strong> or reload.</p>
+    <div id="ab-actions">
+      <button id="ab-recheck" type="button">Re-check</button>
+      <button id="ab-reload" type="button">Reload page</button>
+      <a id="ab-whitelist-instr" href="#" target="_blank" rel="noopener">How to whitelist</a>
+    </div>
   </div>
 </div>
 
-<script>
-(function(){
-  const overlay = document.getElementById('adblock-overlay');
+<div id="ab-watermark" aria-hidden="true">ADBLOCK DETECTED</div>
 
-  function showOverlay() {
-    overlay.style.display = 'flex';
-  }
-  function hideOverlay() {
-    overlay.remove();
-  }
-
-  function checkAdblock() {
-    let adblockDetected = false;
-
-    // Test 1: Bait script loading
-    const baitScript = document.createElement('script');
-    baitScript.src = '/ads/ad-banner.js?' + Date.now();
-    baitScript.onerror = function() {
-      adblockDetected = true;
-      showOverlay();
-    };
-    document.head.appendChild(baitScript);
-
-    // Test 2: CSS hiding rule
-    const baitDiv = document.createElement('div');
-    baitDiv.className = 'ads ad-unit ad-banner ad-container';
-    baitDiv.style.height = '1px';
-    document.body.appendChild(baitDiv);
-
-    setTimeout(() => {
-      const baitHidden = !baitDiv.offsetParent || baitDiv.offsetHeight === 0;
-      baitDiv.remove();
-
-      if (baitHidden) adblockDetected = true;
-
-      // Show/hide overlay depending on detection
-      if (adblockDetected) {
-        showOverlay();
-      } else {
-        hideOverlay();
-      }
-    }, 500);
+<style>
+  /* Overlay covers entire screen by default (blocks content until detection finishes) */
+  #ab-overlay {
+    display: flex; /* visible by default */
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.78);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transition: opacity 260ms ease;
+    color: #fff;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   }
 
-  // Run detection after DOM ready
-  if (document.readyState === 'complete' || document.readyState === 'interactive') {
-    setTimeout(checkAdblock, 200);
-  } else {
-    document.addEventListener('DOMContentLoaded', () => setTimeout(checkAdblock, 200));
+  #ab-modal {
+    max-width: 560px;
+    width: calc(100% - 48px);
+    background: rgba(255,255,255,0.03);
+    padding: 22px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.06);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
   }
-})();
-</script>
+
+  #ab-modal h2 {
+    margin: 0 0 8px;
+    font-size: 1.25rem;
+    letter-spacing: -.01em;
+  }
+  #ab-modal p { margin: 0 0 14px; color: #eee; }
+
+  #ab-actions { display:flex; gap:10px; justify-content:center; align-items:center; flex-wrap:wrap; }
+  #ab-actions button {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    background: rgba(255,255,255,0.12);
+    color: white;
+    font-weight: 600;
+  }
+  #ab-actions a {
+    color: rgba(255,255,255,0.88);
+    font-size: .9rem;
+    text-decoration: underline;
+  }
+
+  /* Watermark (shown only when adblock is detected) */
+  #ab-watermark {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 999998;
+    pointer-events: none;
+  }
+  #ab-watermark::before {
+    content: "ADBLOCK DETECTED";
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%) rotate(-25deg);
+    font-size: 9vw;
+    color: rgba(255, 0, 0, 0.08);
+    font-weight: 800;
+    white-space: nowrap;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* When locked, make page (under overlay) visually blurred and not interactable */
+  body.ab-locked > *:not(#ab-overlay):not(#ab-watermark) {
+    filter: blur(5px) saturate(.95);
+    pointer-events: none;
+    user-select: none;
+  }
+
+  /* Transition-out helpers */
+  .ab-hide {
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  @media (max-width:420px){
+    #ab-modal { padding: 16px; }
+    #ab-actions { gap:8px; }
+  }
+</style>

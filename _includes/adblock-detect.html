@@ -1,72 +1,167 @@
-<style>
-  body.adblock-detected {
-    filter: blur(5px);
-    overflow: hidden;
-  }
-  #adblock-overlay {
-    display: none;
-    position: fixed;
-    z-index: 99999;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.8);
-    color: white;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2rem;
-  }
-  #adblock-watermark {
-    display: none;
-    position: fixed;
-    z-index: 99998;
-    bottom: 10px; right: 10px;
-    color: rgba(255,255,255,0.3);
-    font-size: 1rem;
-    pointer-events: none;
-  }
-</style>
-
-<div id="adblock-overlay">
-  <div>
-    <h2>Please disable your AdBlocker</h2>
-    <p>We rely on ads to keep this site running and the ads will not bother you. Please whitelist us and reload.</p>
-  </div>
-</div>
-<div id="adblock-watermark">AdBlock detected</div>
-
+<!-- _includes/adblock-detect.html -->
 <script>
-(function(){
-  function showOverlay() {
-    document.body.classList.add('adblock-detected');
-    document.getElementById('adblock-overlay').style.display = 'flex';
-    document.getElementById('adblock-watermark').style.display = 'block';
+/*
+  Hybrid AdBlock detection:
+  - Loads a well-known blocked filename (/ads/adsbygoogle.js?ts=...) as a bait script
+  - Injects a fake ad element with ad-like classnames and checks if CSS filters hide it
+  - If either test indicates blocking => show overlay and watermark (overlay is already visible by default)
+  - If not blocked => hide/remove overlay so content becomes interactive
+  - Provides "Re-check" and "Reload" functionality
+*/
+
+(function () {
+  const OVERLAY_ID = 'ab-overlay';
+  const WATERMARK_ID = 'ab-watermark';
+  const RECHECK_BTN_ID = 'ab-recheck';
+  const RELOAD_BTN_ID = 'ab-reload';
+  const TITLE_ID = 'ab-title';
+  const MESSAGE_ID = 'ab-message';
+
+  function el(id){ return document.getElementById(id); }
+  function setTitle(text){ const t = el(TITLE_ID); if(t) t.textContent = text; }
+  function setMessage(html){ const m = el(MESSAGE_ID); if(m) m.innerHTML = html; }
+
+  // show overlay / watermark and mark body locked
+  function showBlockedUI() {
+    const overlay = el(OVERLAY_ID);
+    const watermark = el(WATERMARK_ID);
+    if (overlay) overlay.style.display = 'flex';
+    if (watermark) watermark.style.display = 'block';
+    document.body.classList.add('ab-locked');
+    setTitle('🚫 Ad Blocker Detected');
+    setMessage('We detected an ad blocker. Please whitelist this site and hit <strong>Re-check</strong> or <strong>Reload</strong> and it won't bother you when you read it.');
   }
 
-  // Method 1: Known-blocked script filename (EasyList)
-  var baitScript = document.createElement('script');
-  baitScript.src = '/ads/adsbygoogle.js';
-  baitScript.onerror = function() {
-    showOverlay();
-  };
-  document.head.appendChild(baitScript);
-
-  // Method 2: Hidden bait element with ad-related classnames
-  var baitDiv = document.createElement('div');
-  baitDiv.className = 'adsbox banner adunit ad-banner';
-  baitDiv.style.height = '1px';
-  baitDiv.style.position = 'absolute';
-  baitDiv.style.left = '-999px';
-  document.body.appendChild(baitDiv);
-
-  setTimeout(function(){
-    var elementBlocked = (baitDiv.offsetHeight === 0);
-    if (elementBlocked) {
-      showOverlay();
+  // hide overlay (pass)
+  function hideOverlay() {
+    const overlay = el(OVERLAY_ID);
+    const watermark = el(WATERMARK_ID);
+    document.body.classList.remove('ab-locked');
+    if (overlay) {
+      overlay.classList.add('ab-hide');
+      // remove from DOM after fade
+      setTimeout(() => { overlay && overlay.remove(); }, 340);
     }
-    baitDiv.remove();
-  }, 300);
+    if (watermark) watermark.remove();
+  }
+
+  // robust hybrid detection
+  function runAdblockCheck() {
+    // quick UI state
+    setTitle('Checking for ad blocker…');
+    setMessage('Please wait a moment while we check. If you already whitelisted this site, click <strong>Re-check</strong>.');
+
+    // clean previous baits if any
+    const prevBait = document.getElementById('ab-bait-script');
+    if (prevBait) prevBait.remove();
+
+    // 1) create bait element (CSS-based hide detector)
+    const baitDiv = document.createElement('div');
+    baitDiv.id = 'ab-bait-div';
+    baitDiv.className = 'adsbygoogle ad-banner ad-unit advertisement adbox';
+    // hidden off-screen but measurable
+    baitDiv.style.cssText = 'width:1px;height:1px;position:absolute;left:-9999px;top:-9999px;pointer-events:none;';
+    document.body.appendChild(baitDiv);
+
+    // 2) create bait script (network-based blocking)
+    const baitScript = document.createElement('script');
+    baitScript.id = 'ab-bait-script';
+    // well-known blocked filename pattern
+    baitScript.src = '/ads/adsbygoogle.js?ts=' + Date.now();
+    baitScript.async = true;
+
+    let scriptLoaded = false;
+    let scriptErrored = false;
+    let settled = false;
+
+    function finalize(blocked) {
+      if (settled) return;
+      settled = true;
+
+      // cleanup
+      try { baitDiv && baitDiv.remove(); } catch(e){}
+      try { baitScript && baitScript.remove(); } catch(e){}
+
+      if (blocked) {
+        showBlockedUI();
+      } else {
+        // success: hide overlay and let content be interactive
+        hideOverlay();
+      }
+    }
+
+    baitScript.onload = function () {
+      scriptLoaded = true;
+      // small timeout to allow CSS-based checks to stabilize
+      setTimeout(() => {
+        const baitHidden = (baitDiv.offsetParent === null) || (baitDiv.offsetHeight === 0);
+        finalize(baitHidden ? true : false);
+      }, 80);
+    };
+
+    baitScript.onerror = function () {
+      scriptErrored = true;
+      // network/script blocked -> final blocked
+      finalize(true);
+    };
+
+    // In some blockers the script tag may be removed silently or never fire events.
+    // Use a fallback timeout to decide.
+    const fallback = setTimeout(function () {
+      // is script tag present in DOM anywhere?
+      const present = Array.from(document.getElementsByTagName('script'))
+                           .some(s => s.src && s.src.indexOf('adsbygoogle.js') !== -1);
+      const baitHidden = (baitDiv.offsetParent === null) || (baitDiv.offsetHeight === 0);
+
+      // blocked if: CSS hidden OR script errored OR script not present (silently removed)
+      const blocked = scriptErrored || baitHidden || !present;
+      finalize(blocked);
+    }, 700);
+
+    // append script to trigger onload/onerror or be removed by blocker
+    document.head.appendChild(baitScript);
+  }
+
+  // wire up buttons (re-check & reload)
+  function attachButtons() {
+    const recheck = el(RECHECK_BTN_ID);
+    const reload = el(RELOAD_BTN_ID);
+    if (recheck) {
+      recheck.addEventListener('click', function () {
+        // re-run check
+        runAdblockCheck();
+      });
+    }
+    if (reload) {
+      reload.addEventListener('click', function () {
+        // full reload to pick up whitelist changes
+        window.location.reload(true);
+      });
+    }
+
+    // optional whitelist-instruction link (replace or point to your help page)
+    const instr = el('ab-whitelist-instr');
+    if (instr) {
+      instr.href = 'https://www.google.com/search?q=how+to+whitelist+site+in+adblock'; // change to your help article URL
+      instr.title = 'Open instructions to whitelist site in AdBlock/uBlock';
+    }
+  }
+
+  // run once on load, then attach buttons for manual re-check
+  function init() {
+    attachButtons();
+    // run check shortly after DOM is ready (overlay shows by default)
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(runAdblockCheck, 120);
+    } else {
+      document.addEventListener('DOMContentLoaded', function () { setTimeout(runAdblockCheck, 120); });
+    }
+  }
+
+  // kick off
+  init();
+
+  // expose for manual debugging in console if needed:
+  window.runAdblockCheck = runAdblockCheck;
 })();
 </script>
