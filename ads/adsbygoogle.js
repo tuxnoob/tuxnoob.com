@@ -1,0 +1,1 @@
+// bait ad script for detection - no real code
