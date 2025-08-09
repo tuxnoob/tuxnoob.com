@@ -1,5 +1,5 @@
 <style>
-  /* Blur effect when AdBlock is detected */
+  /* Blur background content when AdBlock is detected */
   body.adblock-detected main,
   body.adblock-detected header,
   body.adblock-detected footer {
@@ -8,7 +8,33 @@
     user-select: none;
   }
 
-  /* Full screen overlay */
+  /* Fullscreen watermark text */
+  #adblock-watermark {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 99998;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      rgba(255, 0, 0, 0.15) 0,
+      rgba(255, 0, 0, 0.15) 1px,
+      transparent 1px,
+      transparent 40px
+    );
+  }
+  #adblock-watermark::before {
+    content: "ADBLOCK DETECTED";
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    font-size: 6vw;
+    color: rgba(255, 0, 0, 0.15);
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  /* Fullscreen overlay for modal */
   #adblock-overlay {
     display: none;
     position: fixed;
@@ -50,6 +76,8 @@
   }
 </style>
 
+<div id="adblock-watermark"></div>
+
 <div id="adblock-overlay">
   <div id="adblock-modal">
     <h2>🚫 Ad Blocker Detected</h2>
@@ -65,16 +93,14 @@
   function showOverlay() {
     document.body.classList.add('adblock-detected');
     document.getElementById('adblock-overlay').style.display = 'flex';
+    document.getElementById('adblock-watermark').style.display = 'block';
     document.body.style.overflow = 'hidden'; // prevent scrolling
   }
-
-  var detected = false;
 
   // --- Method 1: Bait Script ---
   var baitScript = document.createElement('script');
   baitScript.src = '/ads/ad-banner.js';
   baitScript.onerror = function() {
-    detected = true;
     showOverlay();
   };
   document.head.appendChild(baitScript);
@@ -94,7 +120,6 @@
     var elementBlocked = (baitDiv.offsetHeight === 0);
 
     if (!scriptFound || elementBlocked) {
-      detected = true;
       showOverlay();
     }
 
