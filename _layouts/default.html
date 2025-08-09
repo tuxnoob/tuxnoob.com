@@ -27,6 +27,7 @@ layout: compress
             {% if layout.refactor or layout.layout == 'default' %}
               {% include refactor-content.html content=content lang=lang %}
             {% else %}
+              {% include adblock-check.html %}
               {{ content }}
             {% endif %}
           </main>
@@ -82,7 +83,6 @@ layout: compress
     {% endif %}
 
     {% include google-analytics.html %}
-    {% include adblock-check.html %}
 
     {% include_cached search-loader.html %}
     
