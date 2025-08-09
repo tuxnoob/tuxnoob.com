@@ -1,5 +1,4 @@
 <style>
-  /* Full screen overlay */
   #adblock-overlay {
     display: none;
     position: fixed;
@@ -10,8 +9,6 @@
     justify-content: center;
     align-items: center;
   }
-
-  /* Modal box */
   #adblock-modal {
     background: white;
     color: black;
@@ -22,12 +19,10 @@
     font-family: sans-serif;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
   }
-
   #adblock-modal h2 {
     margin-top: 0;
     font-size: 24px;
   }
-
   #adblock-modal p {
     font-size: 16px;
     margin-bottom: 0;
@@ -46,20 +41,42 @@
 
 <script>
 (function(){
-  var bait = document.createElement('script');
-  bait.src = '/ads/ad-banner.js'; // Our bait file
-  bait.onerror = function() {
+  function showOverlay() {
     document.getElementById('adblock-overlay').style.display = 'flex';
-  };
-  document.head.appendChild(bait);
+    document.body.style.overflow = 'hidden'; // prevent scrolling
+  }
 
-  // Fallback in case adblock removes the script silently
+  var detected = false;
+
+  // --- Method 1: Bait Script ---
+  var baitScript = document.createElement('script');
+  baitScript.src = '/ads/ad-banner.js';
+  baitScript.onerror = function() {
+    detected = true;
+    showOverlay();
+  };
+  document.head.appendChild(baitScript);
+
+  // --- Method 2: Bait Element ---
+  var baitDiv = document.createElement('div');
+  baitDiv.className = 'adsbox';
+  baitDiv.style.height = '1px';
+  baitDiv.style.position = 'absolute';
+  baitDiv.style.left = '-999px';
+  document.body.appendChild(baitDiv);
+
+  // Check after short delay
   setTimeout(function(){
-    var scripts = Array.from(document.getElementsByTagName('script'));
-    var found = scripts.some(s => s.src.includes(ad-banner.js'));
-    if (!found) {
-      document.getElementById('adblock-overlay').style.display = 'flex';
+    var scriptFound = Array.from(document.getElementsByTagName('script'))
+                            .some(s => s.src.includes('ad-banner.js'));
+    var elementBlocked = (baitDiv.offsetHeight === 0);
+
+    if (!scriptFound || elementBlocked) {
+      detected = true;
+      showOverlay();
     }
-  }, 500);
+
+    baitDiv.remove();
+  }, 300);
 })();
 </script>
