@@ -17,6 +17,7 @@ layout: compress
 
   <body>
     {% include sidebar.html lang=lang %}
+    {% include adblock-check.html %}
 
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div class="container d-flex flex-column px-xxl-5">
@@ -27,7 +28,6 @@ layout: compress
             {% if layout.refactor or layout.layout == 'default' %}
               {% include refactor-content.html content=content lang=lang %}
             {% else %}
-              {% include adblock-check.html %}
               {{ content }}
             {% endif %}
           </main>

@@ -1,25 +1,47 @@
 <style>
-  #adblock-warning {
+  /* Full screen overlay */
+  #adblock-overlay {
     display: none;
-    font-family: sans-serif;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.85);
+    z-index: 99999;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Modal box */
+  #adblock-modal {
+    background: white;
+    color: black;
+    padding: 30px 40px;
+    max-width: 400px;
     text-align: center;
-    padding: 50px;
-    font-size: 20px;
-    background: #fff;
-    color: #000;
-    min-height: 100vh;
+    border-radius: 12px;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
   }
-  body.adblock-detected > *:not(#adblock-warning) {
-    display: none !important;
+
+  #adblock-modal h2 {
+    margin-top: 0;
+    font-size: 24px;
   }
-  body.adblock-detected #adblock-warning {
-    display: block;
+
+  #adblock-modal p {
+    font-size: 16px;
+    margin-bottom: 0;
   }
 </style>
 
-<div id="adblock-warning">
-  🚫 We've detected you are using an ad blocker.<br><br>
-  Please disable it to view our content, and the ads will not bother you. Thanks
+<div id="adblock-overlay">
+  <div id="adblock-modal">
+    <h2>🚫 Ad Blocker Detected</h2>
+    <p>
+      We've detected you are using an ad blocker.<br>
+      Please disable it to view our content, and the ads will not bother you. Thanks
+    </p>
+  </div>
 </div>
 
 <script>
@@ -27,16 +49,16 @@
   var bait = document.createElement('script');
   bait.src = '/assets/js/ads.js'; // Our bait file
   bait.onerror = function() {
-    document.body.classList.add('adblock-detected');
+    document.getElementById('adblock-overlay').style.display = 'flex';
   };
   document.head.appendChild(bait);
 
-  // Safety timeout in case the adblocker hides the script silently
+  // Fallback in case adblock removes the script silently
   setTimeout(function(){
     var scripts = Array.from(document.getElementsByTagName('script'));
     var found = scripts.some(s => s.src.includes('ads.js'));
     if (!found) {
-      document.body.classList.add('adblock-detected');
+      document.getElementById('adblock-overlay').style.display = 'flex';
     }
   }, 500);
 })();
