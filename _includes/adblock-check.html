@@ -1,49 +1,20 @@
-<!-- Adblock Overlay -->
 <div id="adblock-overlay" style="
-    display: none;
     position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    backdrop-filter: blur(6px);
-    background: rgba(255,255,255,0.8);
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(8px);
     z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
     text-align: center;
-    padding-top: 20vh;
 ">
-    <div style="position: relative;">
-        <div style="
-            font-size: 80px;
-            color: rgba(0,0,0,0.05);
-            position: absolute;
-            top: -150px;
-            left: 0;
-            width: 100%;
-            transform: rotate(-30deg);
-            white-space: nowrap;
-            pointer-events: none;
-            user-select: none;
-        ">
-            PLEASE DISABLE ADBLOCK
-        </div>
-        <h2 style="color:#000;">AdBlock Detected</h2>
-        <p style="color:#333;">Please disable your ad blocker to view this site and it won't bother you when you read it.</p>
-        <button id="recheck-adblock" style="
-            padding: 10px 20px;
-            background: #000;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            margin-top: 20px;
-        ">I disabled AdBlock, re-check</button>
-    </div>
+  <div style="position: absolute; font-size: 4rem; font-weight: bold; color: rgba(0,0,0,0.1); transform: rotate(-30deg); pointer-events: none;">
+    DISABLE ADBLOCK
+  </div>
+  <h2>Please disable your AdBlock</h2>
+  <p>This site relies on ads to function and it won't bother you when you read it. Once disabled, click below:</p>
+  <button id="adblock-recheck" style="padding: 10px 20px; font-size: 1rem;">Re-check</button>
 </div>
-
-<!-- Blur effect for content -->
-<style>
-    body.adblock-active main,
-    body.adblock-active #content {
-        filter: blur(6px);
-        pointer-events: none;
-        user-select: none;
-    }
-</style>

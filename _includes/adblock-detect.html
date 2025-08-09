@@ -1,60 +1,46 @@
 <script>
-(function() {
-    function showAdblockOverlay() {
-        document.body.classList.add("adblock-active");
-        document.getElementById("adblock-overlay").style.display = "block";
+function detectAdblock(callback) {
+  let bait = document.createElement('div');
+  bait.className = 'adsbox banner_ad';
+  bait.style.position = 'absolute';
+  bait.style.height = '1px';
+  bait.style.width = '1px';
+  bait.style.left = '-999px';
+  document.body.appendChild(bait);
+
+  setTimeout(() => {
+    let blockedByCss = (window.getComputedStyle(bait).display === 'none' || bait.offsetParent === null);
+    bait.remove();
+
+    let script = document.createElement('script');
+    script.src = '/ads.js';
+    script.async = true;
+    script.onerror = () => callback(true); // blocked
+    script.onload = () => callback(blockedByCss);
+    document.body.appendChild(script);
+  }, 300);
+}
+
+function showOverlay() {
+  document.getElementById('adblock-overlay').style.display = 'flex';
+}
+
+function hideOverlay() {
+  document.getElementById('adblock-overlay').style.display = 'none';
+}
+
+function runDetection() {
+  detectAdblock((blocked) => {
+    if (blocked) {
+      showOverlay();
+    } else {
+      hideOverlay();
     }
-    function hideAdblockOverlay() {
-        document.body.classList.remove("adblock-active");
-        document.getElementById("adblock-overlay").style.display = "none";
-    }
+  });
+}
 
-    function detectAdblock(callback) {
-        var bait = document.createElement("div");
-        bait.className = "adsbox banner_ad ad-banner ad_unit ad-space";
-        bait.style.position = "absolute";
-        bait.style.height = "1px";
-        bait.style.width = "1px";
-        bait.style.top = "-100px";
-        document.body.appendChild(bait);
-
-        var baitHidden = false;
-        setTimeout(function() {
-            if (bait.offsetHeight === 0 || bait.clientHeight === 0) {
-                baitHidden = true;
-            }
-            bait.remove();
-            // Try fake ad script
-            var script = document.createElement("script");
-            script.src = "/ads/adsbygoogle.js";
-            script.onerror = function() {
-                callback(true); // Adblock detected
-            };
-            script.onload = function() {
-                callback(baitHidden);
-            };
-            document.body.appendChild(script);
-        }, 100);
-    }
-
-    function runDetection() {
-        detectAdblock(function(adblockDetected) {
-            if (adblockDetected) {
-                showAdblockOverlay();
-            } else {
-                hideAdblockOverlay();
-            }
-        });
-    }
-
-    // Initial check after page load
-    window.addEventListener("load", runDetection);
-
-    // Recheck button
-    document.addEventListener("click", function(e) {
-        if (e.target && e.target.id === "recheck-adblock") {
-            runDetection();
-        }
-    });
-})();
+document.addEventListener('DOMContentLoaded', () => {
+  runDetection();
+  document.getElementById('adblock-recheck').addEventListener('click', runDetection);
+});
 </script>
