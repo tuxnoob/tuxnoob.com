@@ -1,7 +1,4 @@
 <style>
-  body.adblock-detected {
-    display: none !important;
-  }
   #adblock-warning {
     display: none;
     font-family: sans-serif;
@@ -12,8 +9,11 @@
     color: #000;
     min-height: 100vh;
   }
+  body.adblock-detected > *:not(#adblock-warning) {
+    display: none !important;
+  }
   body.adblock-detected #adblock-warning {
-    display: block !important;
+    display: block;
   }
 </style>
 
@@ -23,17 +23,21 @@
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    var adTest = document.createElement("div");
-    adTest.className = "adsbox";
-    adTest.style.height = "1px";
-    document.body.appendChild(adTest);
+(function(){
+  var bait = document.createElement('script');
+  bait.src = '/assets/js/ads.js'; // Our bait file
+  bait.onerror = function() {
+    document.body.classList.add('adblock-detected');
+  };
+  document.head.appendChild(bait);
 
-    setTimeout(function () {
-      if (adTest.offsetHeight === 0) {
-        document.body.classList.add("adblock-detected");
-      }
-      adTest.remove();
-    }, 100);
-  });
+  // Safety timeout in case the adblocker hides the script silently
+  setTimeout(function(){
+    var scripts = Array.from(document.getElementsByTagName('script'));
+    var found = scripts.some(s => s.src.includes('ads.js'));
+    if (!found) {
+      document.body.classList.add('adblock-detected');
+    }
+  }, 500);
+})();
 </script>
