@@ -1,129 +1,90 @@
 <style>
-  /* Blur background content when AdBlock is detected */
-  body.adblock-detected main,
-  body.adblock-detected header,
-  body.adblock-detected footer {
-    filter: blur(5px);
-    pointer-events: none;
-    user-select: none;
-  }
-
-  /* Fullscreen watermark text */
-  #adblock-watermark {
-    display: none;
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    z-index: 99998;
-    pointer-events: none;
-    background: repeating-linear-gradient(
-      rgba(255, 0, 0, 0.15) 0,
-      rgba(255, 0, 0, 0.15) 1px,
-      transparent 1px,
-      transparent 40px
-    );
-  }
-  #adblock-watermark::before {
-    content: "ADBLOCK DETECTED";
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%) rotate(-30deg);
-    font-size: 6vw;
-    color: rgba(255, 0, 0, 0.15);
-    font-weight: bold;
-    white-space: nowrap;
-  }
-
-  /* Fullscreen overlay for modal */
-  #adblock-overlay {
-    display: none;
-    position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0,0,0,0.6);
-    z-index: 99999;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(4px);
-  }
-
-  /* Modal box */
-  #adblock-modal {
-    background: white;
-    color: black;
-    padding: 30px 40px;
-    max-width: 400px;
-    text-align: center;
-    border-radius: 12px;
-    font-family: sans-serif;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    animation: fadeIn 0.4s ease;
-  }
-
-  #adblock-modal h2 {
-    margin-top: 0;
-    font-size: 24px;
-  }
-
-  #adblock-modal p {
-    font-size: 16px;
-    margin-bottom: 0;
-  }
-
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
+#adblock-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+}
+#adblock-overlay .content {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  position: relative;
+}
+#adblock-overlay::before {
+  content: 'CONTENT BLOCKED';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  font-size: 80px;
+  color: rgba(255, 255, 255, 0.05);
+  white-space: nowrap;
+  pointer-events: none;
+}
 </style>
 
-<div id="adblock-watermark"></div>
-
 <div id="adblock-overlay">
-  <div id="adblock-modal">
-    <h2>🚫 Ad Blocker Detected</h2>
-    <p>
-      We've detected you are using an ad blocker.<br>
-      Please disable it to view our content, and the ads will not bother you. Thanks
-    </p>
+  <div class="content">
+    <h1>AdBlock Detected</h1>
+    <p>Please disable your ad blocker to view this content and the ads will not bother you.</p>
   </div>
 </div>
 
 <script>
 (function(){
+  const overlay = document.getElementById('adblock-overlay');
+
   function showOverlay() {
-    document.body.classList.add('adblock-detected');
-    document.getElementById('adblock-overlay').style.display = 'flex';
-    document.getElementById('adblock-watermark').style.display = 'block';
-    document.body.style.overflow = 'hidden'; // prevent scrolling
+    overlay.style.display = 'flex';
+  }
+  function hideOverlay() {
+    overlay.remove();
   }
 
-  // --- Method 1: Bait Script ---
-  var baitScript = document.createElement('script');
-  baitScript.src = '/ads/ad-banner.js';
-  baitScript.onerror = function() {
-    showOverlay();
-  };
-  document.head.appendChild(baitScript);
+  function checkAdblock() {
+    let adblockDetected = false;
 
-  // --- Method 2: Bait Element ---
-  var baitDiv = document.createElement('div');
-  baitDiv.className = 'adsbox';
-  baitDiv.style.height = '1px';
-  baitDiv.style.position = 'absolute';
-  baitDiv.style.left = '-999px';
-  document.body.appendChild(baitDiv);
-
-  // Check after short delay
-  setTimeout(function(){
-    var scriptFound = Array.from(document.getElementsByTagName('script'))
-                            .some(s => s.src.includes('ad-banner.js'));
-    var elementBlocked = (baitDiv.offsetHeight === 0);
-
-    if (!scriptFound || elementBlocked) {
+    // Test 1: Bait script loading
+    const baitScript = document.createElement('script');
+    baitScript.src = '/ads/ad-banner.js?' + Date.now();
+    baitScript.onerror = function() {
+      adblockDetected = true;
       showOverlay();
-    }
+    };
+    document.head.appendChild(baitScript);
 
-    baitDiv.remove();
-  }, 300);
+    // Test 2: CSS hiding rule
+    const baitDiv = document.createElement('div');
+    baitDiv.className = 'ads ad-unit ad-banner ad-container';
+    baitDiv.style.height = '1px';
+    document.body.appendChild(baitDiv);
+
+    setTimeout(() => {
+      const baitHidden = !baitDiv.offsetParent || baitDiv.offsetHeight === 0;
+      baitDiv.remove();
+
+      if (baitHidden) adblockDetected = true;
+
+      // Show/hide overlay depending on detection
+      if (adblockDetected) {
+        showOverlay();
+      } else {
+        hideOverlay();
+      }
+    }, 500);
+  }
+
+  // Run detection after DOM ready
+  if (document.readyState === 'complete' || document.readyState === 'interactive') {
+    setTimeout(checkAdblock, 200);
+  } else {
+    document.addEventListener('DOMContentLoaded', () => setTimeout(checkAdblock, 200));
+  }
 })();
 </script>
