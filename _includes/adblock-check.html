@@ -47,7 +47,7 @@
 <script>
 (function(){
   var bait = document.createElement('script');
-  bait.src = '/assets/js/ads.js'; // Our bait file
+  bait.src = '/ads/ad-banner.js'; // Our bait file
   bait.onerror = function() {
     document.getElementById('adblock-overlay').style.display = 'flex';
   };
@@ -56,7 +56,7 @@
   // Fallback in case adblock removes the script silently
   setTimeout(function(){
     var scripts = Array.from(document.getElementsByTagName('script'));
-    var found = scripts.some(s => s.src.includes('ads.js'));
+    var found = scripts.some(s => s.src.includes(ad-banner.js'));
     if (!found) {
       document.getElementById('adblock-overlay').style.display = 'flex';
     }
