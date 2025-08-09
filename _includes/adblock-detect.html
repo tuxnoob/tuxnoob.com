@@ -1,54 +1,60 @@
 <script>
-(function(){
-  function detectAdblock(callback) {
-    // Create bait element
-    var bait = document.createElement('div');
-    bait.className = 'adsbox';
-    bait.style.position = 'absolute';
-    bait.style.left = '-999px';
-    document.body.appendChild(bait);
+(function() {
+    function showAdblockOverlay() {
+        document.body.classList.add("adblock-active");
+        document.getElementById("adblock-overlay").style.display = "block";
+    }
+    function hideAdblockOverlay() {
+        document.body.classList.remove("adblock-active");
+        document.getElementById("adblock-overlay").style.display = "none";
+    }
 
-    window.setTimeout(function() {
-      var blocked = false;
-      if (bait.offsetHeight === 0) blocked = true;
-      document.body.removeChild(bait);
-      callback(blocked);
-    }, 100);
-  }
+    function detectAdblock(callback) {
+        var bait = document.createElement("div");
+        bait.className = "adsbox banner_ad ad-banner ad_unit ad-space";
+        bait.style.position = "absolute";
+        bait.style.height = "1px";
+        bait.style.width = "1px";
+        bait.style.top = "-100px";
+        document.body.appendChild(bait);
 
-  function showOverlay() {
-    document.getElementById('adblock-overlay').style.display = 'flex';
-    document.body.style.overflow = 'hidden';
-  }
+        var baitHidden = false;
+        setTimeout(function() {
+            if (bait.offsetHeight === 0 || bait.clientHeight === 0) {
+                baitHidden = true;
+            }
+            bait.remove();
+            // Try fake ad script
+            var script = document.createElement("script");
+            script.src = "/ads/adsbygoogle.js";
+            script.onerror = function() {
+                callback(true); // Adblock detected
+            };
+            script.onload = function() {
+                callback(baitHidden);
+            };
+            document.body.appendChild(script);
+        }, 100);
+    }
 
-  function hideOverlay() {
-    document.getElementById('adblock-overlay').style.display = 'none';
-    document.body.style.overflow = '';
-  }
+    function runDetection() {
+        detectAdblock(function(adblockDetected) {
+            if (adblockDetected) {
+                showAdblockOverlay();
+            } else {
+                hideAdblockOverlay();
+            }
+        });
+    }
 
-  function checkAndToggle() {
-    detectAdblock(function(isBlocked) {
-      if (isBlocked) {
-        showOverlay();
-      } else {
-        hideOverlay();
-      }
+    // Initial check after page load
+    window.addEventListener("load", runDetection);
+
+    // Recheck button
+    document.addEventListener("click", function(e) {
+        if (e.target && e.target.id === "recheck-adblock") {
+            runDetection();
+        }
     });
-  }
-
-  // Initial check
-  document.addEventListener('DOMContentLoaded', function() {
-    checkAndToggle();
-
-    // Re-check button
-    document.getElementById('adblock-recheck').addEventListener('click', function(){
-      checkAndToggle();
-    });
-
-    // Reload button
-    document.getElementById('adblock-reload').addEventListener('click', function(){
-      location.reload();
-    });
-  });
 })();
 </script>
