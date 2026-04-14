@@ -25,7 +25,7 @@ These projects represent real engineering work across infrastructure, automation
 
 ---
 
-### 2. smallPict
+### 2. smallPict [https://smallpict.tuxnoob.com](https://smallpict.tuxnoob.com)
 **Summary:** WordPress plugin for automated image compression and WebP/AVIF conversion with serverless backend.
 
 **Context / Problem:** WordPress sites suffer from performance bottlenecks during bulk image processing, especially with heavy uploads.
