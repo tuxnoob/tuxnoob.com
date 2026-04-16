@@ -40,7 +40,7 @@ This blog documents my technical notes, production lessons, and solutions for re
 `HAProxy` `Traefik` `AWS ALB/NLB` `Cloudflare DNS/WAF` `Pritunl VPN` `AWS IP-Sec VPN` `AWS VPC` `AWS Transit Gateway` `GCP VPC` `GCP Cloud Load Balancing`
 
 ### Web Server & Reverse Proxy
-Nginx Apache
+`Nginx` `Apache`
 
 ### Messaging
 `RabbitMQ` `Kafka` `NSQ`
