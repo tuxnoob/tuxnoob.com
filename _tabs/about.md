@@ -37,7 +37,10 @@ This blog documents my technical notes, production lessons, and solutions for re
 `MySQL` `PostgreSQL` `MongoDB` `Redis` `RDS` `ProxySQL` `Pgpool-II`
 
 ### Networking
-`Nginx` `HAProxy` `Traefik` `AWS ALB/NLB` `Cloudflare DNS/WAF` `Pritunl VPN`
+`HAProxy` `Traefik` `AWS ALB/NLB` `Cloudflare DNS/WAF` `Pritunl VPN` `AWS IP-Sec VPN` `AWS VPC` `AWS Transit Gateway` `GCP VPC` `GCP Cloud Load Balancing`
+
+### Web Server & Reverse Proxy
+Nginx Apache
 
 ### Messaging
 `RabbitMQ` `Kafka` `NSQ`
@@ -104,8 +107,5 @@ WordPress plugin for image compression + WebP/AVIF conversion. Serverless AWS La
 - 🐙 [GitHub / tuxnoob](https://github.com/tuxnoob)
 - ✉️ [ariefslack@gmail.com](mailto:ariefslack@gmail.com)
 
-## More Coming Soon
-
-I’m gradually expanding this portfolio with additional case studies, infrastructure notes, and project write-ups from both professional and independent work.
-
-My goal is to keep each entry practical, accurate, and grounded in real engineering decisions.
+## More Details
+[https://www.tuxnoob.com/projects/](https://www.tuxnoob.com/projects/)
