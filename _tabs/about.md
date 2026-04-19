@@ -4,19 +4,21 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About
-
 Hi, I'm **Arief Januar Rizki**.
 
 **Senior DevOps Engineer with 9 years total IT experience, 7+ years specialized in DevOps/SRE.**  
 I design, automate, and operate cloud infrastructure across AWS, GCP, and Alibaba Cloud — focusing on reliability, security, scalability, and cost efficiency through infrastructure automation, CI/CD, Kubernetes, observability, and platform engineering.
 
+Proven track record of reducing infrastructure costs by up to **50%** and accelerating CI/CD pipelines by up to **60%**. Strong background in Kubernetes, Terraform, observability engineering, and security hardening across high-traffic production environments.
+
 This blog documents my technical notes, production lessons, and solutions for real infrastructure challenges. I write about cloud platforms, DevOps workflows, Linux systems, and practical engineering that helps build reliable systems at scale.
+
+---
 
 ## What I Work With
 
 ### Cloud
-`AWS (EC2, ECS, EKS, ECR, RDS, S3, SSM, ALB, NLB, VPC, IAM, Lambda, Route53, CloudFront, WAF)` `GCP (GCE, GCS, Artifact Registry, IAM)` `Alibaba Cloud (ECS, OSS, EKS, CLB, NLB)`
+`AWS (EC2, ECS, EKS, ECR, RDS, S3, SSM, ALB, NLB, VPC, IAM, Lambda, Route53, CloudFront, WAF, API Gateway, SQS, SNS)` `GCP (GCE, GCS, Artifact Registry, IAM)` `Alibaba Cloud (ECS, OSS, EKS, CLB, NLB)`
 
 ### IaC & Config
 `Terraform` `Ansible`
@@ -34,22 +36,24 @@ This blog documents my technical notes, production lessons, and solutions for re
 `Cloudflare WAF` `HashiCorp Vault` `OWASP` `SonarQube` `Fail2Ban` `ModSecurity` `ISO 27001`
 
 ### Databases
-`MySQL` `PostgreSQL` `MongoDB` `Redis` `RDS` `ProxySQL` `Pgpool-II`
+`MySQL` `PostgreSQL` `MongoDB` `Redis` `RDS` `Cloud SQL` `ProxySQL` `Pgpool-II`
 
 ### Networking
 `HAProxy` `Traefik` `AWS ALB/NLB` `Cloudflare DNS/WAF` `Pritunl VPN` `AWS IP-Sec VPN` `AWS VPC` `AWS Transit Gateway` `GCP VPC` `GCP Cloud Load Balancing`
 
 ### Web Server & Reverse Proxy
-`Nginx` `Apache`
+`Nginx` `Traefik` `Apache`
 
 ### Messaging
-`RabbitMQ` `Kafka` `NSQ`
+`RabbitMQ` `Kafka` `NSQ` `AWS SQS` `AWS SNS`
 
 ### Scripting
 `Python` `Bash/Shell`
 
 ### Virtualization
 `QEMU/KVM` `Proxmox` `Hyper-V`
+
+---
 
 ## Professional Background
 
@@ -75,9 +79,20 @@ Hadoop cluster management (Cloudera/Hortonworks), system performance tuning, ELK
 **Aug 2014 – Feb 2015**  
 MikroTik network configuration, network layout design, troubleshooting.
 
-## Freelance & Contract Work
+---
 
-**Concurrent with full-time roles:** **Alpha Cipta Teknologi**, Royal Phinisi (comodo.id), Sphere Global Solusi, Pranagroup Co., DPR RI, **Hermoves Indonesia**.
+## Freelance & Contract
+
+| Company | Period | Scope |
+|---|---|---|
+| Her Moves Indonesia | Oct 2025 – Present | Independent DevOps / Technical Consultant |
+| Alpha Cipta Teknologi | Sep 2022 – Feb 2024 | CI/CD, HA databases, Grafana stack, Cloudflare WAF, self-hosted email |
+| Royal Phinisi / comodo.id | Aug – Dec 2023 | GCP, Terraform, PostgreSQL HA, NSQ, Typesense, Cloudflare DNS/WAF |
+| Sphere Global Solusi Co. | Sep 2018 – Aug 2023 | VM deployments, GitLab CI/CD, monitoring, MySQL/PostgreSQL replication, backups |
+| Pranagroup Co. | Jul 2021 – Dec 2023 | Jenkins CI/CD, Traefik, DB tuning, SSL automation, DigitalOcean |
+| DPR RI | Sep 2021 – Apr 2022 | On-prem Hadoop stack (Ambari, HDFS, YARN, Hive, HBase, Spark, NiFi, Metron) |
+
+---
 
 **Scope:** CI/CD pipelines, Terraform deployments, HA databases, observability stacks, VPN/email infrastructure, on-prem Hadoop.
 
@@ -89,6 +104,8 @@ Python-based algorithmic trading with breakout, pullback, scalping, and volume s
 ### smallPict
 WordPress plugin for image compression + WebP/AVIF conversion. Serverless AWS Lambda backend with Freemius SaaS monetization.
 
+---
+
 ## Certifications & Education
 
 **AWS Certified Solutions Architect – Associate (SAA-C03)** — Feb 2020  
@@ -96,9 +113,13 @@ WordPress plugin for image compression + WebP/AVIF conversion. Serverless AWS La
 
 **B.Eng. Informatics Engineering** — Universitas Siliwangi, Tasikmalaya (2011–2017)
 
+---
+
 ## Open Source
 
 **Slackware Linux Indonesia contributor** — planet.slackware-id.org maintenance, SlackBuilds, open-source packaging.
+
+---
 
 ## Contact
 
@@ -106,6 +127,8 @@ WordPress plugin for image compression + WebP/AVIF conversion. Serverless AWS La
 - 🐙 [GitHub / 4IP](https://github.com/4IP)
 - 🐙 [GitHub / tuxnoob](https://github.com/tuxnoob)
 - ✉️ [ariefslack@gmail.com](mailto:ariefslack@gmail.com)
+
+---
 
 ## More Details
 [https://www.tuxnoob.com/projects/](https://www.tuxnoob.com/projects/)
