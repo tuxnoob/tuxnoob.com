@@ -58,7 +58,8 @@ This blog documents my technical notes, production lessons, and solutions for re
 ## Professional Background
 
 ### Senior DevOps Engineer — Teknologi Usaha Nusantara (broom.id)
-**Oct 2023 – Present**  
+**Oct 2023 – Apr 2026**  
+*(Note: Impacted by company-wide layoffs in April 2026 as part of cost efficiency measures to save 4 billion IDR annually.)*  
 Led infrastructure modernization across AWS by redesigning public-facing environments into isolated VPCs for development, infrastructure, and production. Introduced Terraform and Ansible to bring stronger infrastructure-as-code and automation practices into the platform, improving consistency across provisioning, deployment, migration, and operational tasks.
 
 Built a new ECS-based container platform with Terraform, Docker, AWS ECR, and GitHub Actions, while improving access control, deployment workflows, and operational visibility. I also led major cost optimization initiatives, observability migration from Datadog to a self-managed Grafana stack, and ongoing modernization work across both legacy and microservices-based systems.

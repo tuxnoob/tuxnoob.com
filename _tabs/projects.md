@@ -48,7 +48,9 @@ These projects represent real engineering work across infrastructure, automation
 ## Selected Work
 
 ### 3. Senior DevOps Engineer — Teknologi Usaha Nusantara (broom.id)
-**Oct 2023 – Present**
+**Oct 2023 – Apr 2026**
+
+*(Note: Impacted by company-wide layoffs in April 2026 as part of cost efficiency measures to save 4 billion IDR annually.)*
 
 **Summary:** Led infrastructure redesign, AWS ECS platform setup, infrastructure-as-code adoption, cost optimization, and internal tooling development across development, staging, and production environments.
 
@@ -98,7 +100,7 @@ These projects represent real engineering work across infrastructure, automation
   - Triggering and managing container services in **AWS ECS**
   - Creating **Jira tickets** for DevOps requests and operational work items
 
-**In Progress:**
+**In Progress (at time of departure):**
 - Migrating production databases from AWS RDS to self-hosted EC2 with Pgpool-II + PostgreSQL primary-replica, mirroring the dev/staging setup
 - Rolling out Graviton/ARM64 for production ECS workloads and GitHub runners
 - Migrating remaining legacy monolithic services into the redesigned VPC with Graviton instances and GP3 volumes
