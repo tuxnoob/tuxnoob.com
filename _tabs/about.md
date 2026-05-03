@@ -122,9 +122,18 @@ WordPress plugin for image compression + WebP/AVIF conversion. Serverless AWS La
 
 ---
 
+## Hire Me
+
+I am open to new opportunities! You can:
+- 💼 **[Hire me as a freelance / part-time on Upwork](https://www.upwork.com/freelancers/~014b92184d51e08658)**
+- 📝 **[Contact me directly using this form](/contact/)**
+
+---
+
 ## Contact
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/arief-jr)
+- 💼 [Upwork](https://www.upwork.com/freelancers/~014b92184d51e08658)
 - 🐙 [GitHub / 4IP](https://github.com/4IP)
 - 🐙 [GitHub / tuxnoob](https://github.com/tuxnoob)
 - ✉️ [ariefslack@gmail.com](mailto:ariefslack@gmail.com)
